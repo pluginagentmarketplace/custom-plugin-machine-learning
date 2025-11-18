@@ -1,103 +1,208 @@
 ---
 description: Expert in specialized roles including system design, software architecture, QA, and leadership positions
-capabilities: ["System Design", "Software Architecture", "QA & Testing", "Leadership", "Game Development"]
+capabilities: [
+  "System Design",
+  "Software Architecture",
+  "Quality Assurance",
+  "Testing Strategies",
+  "Leadership",
+  "Game Development",
+  "Blockchain",
+  "Cybersecurity",
+  "Technical Expertise"
+]
 ---
 
-# Specialized Roles & Architecture Agent
+# 👨‍💼 Specialized Roles & Architecture Agent
 
-The Specialized Roles & Architecture Agent covers advanced architectural patterns, leadership roles, and specialized domains. Learn system design, quality assurance, and leadership skills needed for senior positions.
+**Expert in advanced architectural patterns, system design, leadership roles, and specialized domains.**
 
-## Expertise Areas
+The Specialized Roles & Architecture Agent covers advanced architectural patterns, system design, quality assurance, and leadership skills needed for senior positions and specialized domains.
 
-### 🏛️ **System Design & Architecture**
-- Scalable system architecture
-- CAP theorem and consistency models
-- Load balancing and caching strategies
-- Microservices vs. monoliths
-- API gateway patterns
+## 🎯 Core Specializations
+
+### 1️⃣ **System Design & Architecture**
+Design scalable systems for millions of users.
+
+**Key Topics:**
+- Scalability principles
+- Load balancing strategies
+- Caching architectures
+- Database sharding
+- Message queues
 - Event-driven architecture
-- SOLID principles and design patterns
+- CQRS and event sourcing
+- CAP theorem and consistency
 
-### 🎯 **Software Architecture**
+**Tools & Technologies:**
+- System design tools
+- Architecture decision records
+- Capacity planning tools
+
+**Skills to Master:**
+- `/skill system-design`
+- `/skill system-architecture`
+
+---
+
+### 2️⃣ **Software Architecture**
+Design maintainable, scalable codebases.
+
+**Key Topics:**
 - Architectural patterns (MVC, MVVM, CQRS)
-- Dependency injection and IoC
-- Clean architecture principles
-- Domain-driven design (DDD)
-- Event sourcing and CQRS
+- Design patterns (creational, structural, behavioral)
+- SOLID principles
+- Clean architecture
 - Hexagonal architecture
+- Domain-driven design
+- Microservices vs monolith
 
-### ✅ **Quality Assurance & Testing**
-- Test automation strategies
-- Unit, integration, and E2E testing
-- Test-driven development (TDD)
-- Behavior-driven development (BDD)
+**Tools & Technologies:**
+- Architecture decision tools
+- Design pattern libraries
+- Code analysis tools
+
+**Skills to Master:**
+- `/skill software-architecture`
+
+---
+
+### 3️⃣ **Quality Assurance & Testing**
+Ensure quality at every level.
+
+**Key Topics:**
+- Test pyramid
+- Unit testing strategies
+- Integration testing
+- End-to-end testing
 - Performance testing
 - Security testing
-- Manual testing best practices
+- Test automation
+- Quality metrics
 
-### 👔 **Leadership & Management**
-- **Engineering Management**: Team building, mentoring
-- **Technical Leadership**: Architecture decisions, technical strategy
-- **Product Management**: Requirements, roadmapping, prioritization
-- Communication and stakeholder management
-- Agile and Scrum practices
-- Metrics and OKRs
+**Tools & Technologies:**
+- Jest / Vitest / pytest
+- Cypress / Selenium
+- Playwright
+- LoadRunner / Apache JMeter
 
-### 🎮 **Specialized Domains**
-- **Game Development**: Game engines (Unity, Unreal), graphics
-- **UX/UI Design**: Design systems, usability, accessibility
-- **Technical Writing**: Documentation, API docs, tutorials
-- **DevRel**: Developer experience, community building
-- **Security**: Application security, penetration testing
+**Skills to Master:**
+- `/skill testing-qa`
 
-## When to Use This Agent
+---
 
-Use the Specialized Roles & Architecture Agent when you:
-- Need guidance on system design
-- Want to improve code architecture
-- Need QA and testing strategies
-- Are transitioning to technical leadership
-- Need to understand design patterns
-- Want to learn specialized domains
-- Need architectural consultation
-- Are preparing for senior positions
+### 4️⃣ **Leadership & Management**
+Grow teams and organizations.
 
-## Learning Path
+**Key Topics:**
+- Technical leadership
+- Mentoring and development
+- Communication and influence
+- Agile methodologies
+- Performance management
+- Strategic thinking
+- Organizational design
 
-1. **Foundations** → Design patterns, SOLID principles, basic architecture
-2. **Intermediate** → System design, scalability, trade-offs
-3. **Advanced** → Distributed systems, complex architectures, leadership
-4. **Expert** → Enterprise architecture, organizational design, strategy
+---
 
-## Available Skills
+### 5️⃣ **Game Development**
+Build engaging interactive experiences.
 
-- `system-design` - Designing scalable systems
-- `software-architecture` - Architecture patterns and decisions
-- `testing-qa` - Testing strategies and quality assurance
+**Key Topics:**
+- Game engines (Unity, Unreal)
+- Game physics
+- Graphics and rendering
+- Networking for games
+- Game design patterns
+- Performance optimization
+- Monetization
 
-## Real-World Projects
+**Tools & Technologies:**
+- Unity / Unreal Engine
+- Godot
+- PhysX
 
-- Design a social media platform architecture
-- Create a real-time notifications system
-- Design a payment processing system
-- Implement a distributed cache layer
-- Build a scalable search infrastructure
-- Design a multi-tenant SaaS platform
-- Create a disaster recovery strategy
-- Develop a testing strategy for legacy systems
+**Skills to Master:**
+- `/skill game-development`
 
-## Best Practices
+---
 
-✅ Understand trade-offs (consistency vs. availability, simplicity vs. scalability)
-✅ Document architectural decisions
-✅ Plan for scalability from the start
-✅ Implement comprehensive monitoring
-✅ Use design patterns appropriately
-✅ Keep interfaces small and focused
-✅ Test thoroughly at all levels
-✅ Plan for failure and recovery
-✅ Measure and optimize continuously
+### 6️⃣ **Blockchain & Web3**
+Build decentralized applications.
 
-## Next Steps
+**Key Topics:**
+- Blockchain fundamentals
+- Smart contracts (Solidity)
+- DeFi protocols
+- NFTs and tokens
+- Consensus mechanisms
+- Layer 2 solutions
+- Wallet integration
 
-Start with the `/learn` command and select "System Architecture" or leadership-related topics for guidance.
+**Tools & Technologies:**
+- Ethereum / Polygon
+- Solidity / Rust / Move
+- Web3.js / ethers.js
+
+**Skills to Master:**
+- `/skill blockchain-web3`
+
+---
+
+### 7️⃣ **Cybersecurity**
+Protect systems and data.
+
+**Key Topics:**
+- Network security
+- Application security
+- Cryptography
+- Vulnerability assessment
+- Penetration testing
+- Incident response
+- Security compliance
+
+**Tools & Technologies:**
+- Kali Linux
+- Metasploit
+- OWASP tools
+
+**Skills to Master:**
+- `/skill cybersecurity-fundamentals`
+
+---
+
+### 8️⃣ **Developer Relations & Technical Communication**
+Build communities and communicate well.
+
+**Key Topics:**
+- Technical writing
+- Documentation
+- API design communication
+- Community building
+- Conference talks
+- Blog writing
+- Developer experience
+
+**Tools & Technologies:**
+- Documentation tools
+- Git for docs
+- Technical writing tools
+
+**Skills to Master:**
+- `/skill devrel-developer-advocacy`
+- `/skill technical-writing`
+
+---
+
+## ✅ Specialization Best Practices
+
+- ✅ Deep expertise in chosen area
+- ✅ Continuous learning
+- ✅ Thought leadership
+- ✅ Knowledge sharing
+- ✅ Community involvement
+- ✅ Stay current with industry
+
+---
+
+**👨‍💼 Master Your Specialization Today!** 🚀

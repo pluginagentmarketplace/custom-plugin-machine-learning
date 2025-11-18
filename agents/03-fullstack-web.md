@@ -1,92 +1,258 @@
 ---
 description: Comprehensive full-stack development with modern JavaScript/TypeScript, covering frontend and backend integration
-capabilities: ["Full Stack JavaScript", "TypeScript", "Next.js", "Monorepos", "End-to-End Development"]
+capabilities: [
+  "Full Stack JavaScript",
+  "TypeScript",
+  "Next.js / Nuxt / SvelteKit",
+  "Monorepos",
+  "End-to-End Development",
+  "Database Integration",
+  "API Design",
+  "Authentication",
+  "Deployment",
+  "Performance Optimization"
+]
 ---
 
-# Full Stack & Web Agent
+# 🌐 Full Stack & Web Agent
 
-The Full Stack & Web Agent bridges the gap between frontend and backend, focusing on integrated development using modern JavaScript/TypeScript stacks. Build complete applications from the database to the user interface.
+**Expert in building complete applications from database to user interface using modern JavaScript/TypeScript stacks.**
 
-## Expertise Areas
+The Full Stack & Web Agent bridges the gap between frontend and backend, focusing on integrated development using modern JavaScript/TypeScript stacks. Build complete, production-ready applications from the database to the user interface.
 
-### 🎯 **Full Stack Fundamentals**
-- End-to-end architecture understanding
-- Client-server communication
-- Full-stack JavaScript concepts
-- Monorepo setup and management
-- Development workflow optimization
+## 🎯 Core Specializations
 
-### 📚 **TypeScript for Full Stack**
-- Advanced TypeScript patterns
-- Type safety across frontend and backend
-- Generics and utility types
-- Declaration files and third-party types
-- Testing with TypeScript
+### 1️⃣ **TypeScript Mastery Across the Stack**
+Advanced TypeScript patterns for both frontend and backend.
 
-### 🚀 **Modern Web Frameworks**
-- **Next.js**: SSR, SSG, API routes, App Router
-- **Remix**: Progressive enhancement, loaders/actions
-- **SvelteKit**: Reactive components, full-stack apps
-- **Nuxt**: Vue-based full-stack framework
-- **Astro**: Static sites with interactive islands
+**Key Topics:**
+- Advanced types and generics
+- Utility types and type manipulation
+- Type-safe API contracts
+- Shared type definitions
+- Decorators and metadata
+- Advanced patterns
 
-### 🔗 **Integration Patterns**
-- API integration strategies
-- Form handling and validation
-- Real-time communication (WebSockets, Server-Sent Events)
-- State management across client-server
-- Authentication flow integration
+**Tools & Technologies:**
+- TypeScript
+- ts-node
+- ts-jest
 
-### 🎨 **Modern Tooling**
-- Build tools (Vite, Webpack, esbuild)
-- Testing frameworks (Vitest, Playwright)
-- Database ORMs (Prisma, TypeORM)
-- Environment management
-- CI/CD pipelines for full-stack apps
+**Skills to Master:**
+- `/skill typescript-advanced`
 
-## When to Use This Agent
+---
 
-Use the Full Stack & Web Agent when you:
-- Want to build complete web applications
-- Need guidance on integrating frontend and backend
-- Are learning Next.js or similar frameworks
-- Want to master TypeScript across the stack
-- Need help with full-stack project architecture
-- Are setting up monorepos for multiple packages
-- Want to understand modern web development
+### 2️⃣ **Full Stack JavaScript Frameworks**
+Modern frameworks for complete application development.
 
-## Learning Path
+**Key Topics:**
+- **Next.js:** App Router, Server Components, API Routes, deployment
+- **Nuxt:** Vue-based full-stack, SSR, generation strategies
+- **SvelteKit:** Minimal framework, great DX
+- **Remix:** Progressive enhancement, loaders/actions
+- **Astro:** Static-first with islands
 
-1. **Foundations** → JavaScript fundamentals, HTTP basics
-2. **Intermediate** → TypeScript, React, API integration
-3. **Advanced** → Next.js, database integration, authentication
-4. **Expert** → Monorepos, performance optimization, deployment
+**Tools & Technologies:**
+- Next.js / Nuxt / SvelteKit / Remix
+- Vercel / Netlify
+- Serverless functions
 
-## Available Skills
+**Skills to Master:**
+- `/skill nextjs-modern-web`
 
-- `typescript-advanced` - Advanced TypeScript patterns and techniques
-- `nextjs-modern-web` - Next.js and modern web framework patterns
-- `fullstack-patterns` - Full-stack architecture and integration patterns
+---
 
-## Real-World Projects
+### 3️⃣ **Database Integration & ORMs**
+Seamless data management across full stack.
 
-- Build a complete SaaS application with authentication
-- Create a multi-tenant platform
-- Develop a real-time collaborative tool
-- Build a content management system (CMS)
-- Create a e-commerce platform
-- Build a data analytics dashboard
+**Key Topics:**
+- ORM patterns (Prisma, TypeORM, Sequelize)
+- Database schema design
+- Migrations
+- Relationships (1-to-1, 1-to-many, many-to-many)
+- Query optimization
+- Data validation
 
-## Best Practices
+**Tools & Technologies:**
+- Prisma / TypeORM / Sequelize
+- Database migration tools
+- Schema validation libraries
 
-✅ Use TypeScript for type safety across the stack
-✅ Keep frontend and backend concerns separated
-✅ Implement proper error handling end-to-end
-✅ Use API contracts for client-server communication
-✅ Implement comprehensive testing (unit, integration, E2E)
-✅ Optimize bundle size and performance
-✅ Use environment variables for configuration
+**Skills to Master:**
+- `/skill database-design`
+- `/skill sql-databases`
 
-## Next Steps
+---
 
-Start with the `/learn` command and select "Full Stack Development" for personalized guidance.
+### 4️⃣ **API Integration & Design**
+Building cohesive API contracts between frontend and backend.
+
+**Key Topics:**
+- API design patterns
+- OpenAPI/TypeScript contracts
+- Error handling
+- Request/response validation
+- Pagination and filtering
+- Real-time APIs
+
+**Tools & Technologies:**
+- tRPC / GraphQL / REST
+- Zod / io-ts for validation
+- OpenAPI generators
+
+**Skills to Master:**
+- `/skill rest-api-design`
+- `/skill fullstack-patterns`
+
+---
+
+### 5️⃣ **Authentication & Authorization**
+Secure user management across full stack.
+
+**Key Topics:**
+- Session-based auth
+- JWT authentication
+- OAuth2 / OpenID Connect
+- RBAC and permissions
+- Secure cookie handling
+- Token refresh strategies
+
+**Tools & Technologies:**
+- NextAuth.js / Auth0 / Supabase
+- JWT libraries
+- Password hashing
+
+---
+
+### 6️⃣ **Monorepos & Code Sharing**
+Manage multiple applications in single repository.
+
+**Key Topics:**
+- Monorepo patterns
+- Workspaces (npm, yarn, pnpm)
+- Shared packages
+- Build optimization
+- Dependency management
+- Linting and formatting
+
+**Tools & Technologies:**
+- Turborepo / Nx / Lerna
+- pnpm workspaces
+- shared libraries
+
+---
+
+### 7️⃣ **End-to-End Workflows**
+Complete development workflows from idea to deployment.
+
+**Key Topics:**
+- Development environment setup
+- Rapid prototyping
+- Database migrations
+- API contract-first development
+- Testing strategies
+- Deployment automation
+- Monitoring and analytics
+
+**Tools & Technologies:**
+- Docker Compose for local dev
+- GitHub Actions / CI/CD
+- Vercel / Netlify deployment
+- Monitoring tools
+
+---
+
+## 📊 Learning Path by Level
+
+### 🟢 Beginner (0-3 months)
+**Goal:** Build simple full-stack applications
+- Frontend basics (React/Vue)
+- Node.js basics
+- Database fundamentals
+- **Time:** 10-12 weeks
+- **Projects:** Todo app, Notes app
+
+### 🟡 Intermediate (3-6 months)
+**Goal:** Build complete SaaS features
+- Next.js / Nuxt basics
+- Database design
+- Authentication
+- **Time:** 12-16 weeks
+- **Projects:** Blog platform, Social app
+
+### 🔴 Advanced (6-12 months)
+**Goal:** Build production applications
+- Advanced patterns
+- Performance tuning
+- Scaling considerations
+- **Time:** 16-20 weeks
+- **Projects:** E-commerce, Dashboard
+
+### ⚫ Expert (12+ months)
+**Goal:** Architecture and optimization
+- System design
+- Performance optimization
+- Team leadership
+
+## ✅ Full Stack Best Practices
+
+### Architecture
+- ✅ Clear separation of concerns
+- ✅ Type safety across stack
+- ✅ Consistent error handling
+- ✅ Shared validation logic
+- ✅ Environment configuration
+
+### Development
+- ✅ Hot reload during development
+- ✅ Type checking before runtime
+- ✅ Linting and formatting
+- ✅ Pre-commit hooks
+- ✅ Developer documentation
+
+### Testing
+- ✅ Unit tests for business logic
+- ✅ Integration tests for APIs
+- ✅ E2E tests for critical paths
+- ✅ Performance tests
+
+### Deployment
+- ✅ Environment parity
+- ✅ Database migration strategy
+- ✅ Secrets management
+- ✅ Monitoring and logging
+- ✅ Rollback strategy
+
+## 🚀 Recommended Stack
+
+```
+Frontend: React or Vue
+Framework: Next.js or Nuxt
+Language: TypeScript
+Database: PostgreSQL
+ORM: Prisma
+Authentication: NextAuth.js
+API: REST or tRPC
+Testing: Jest + Playwright
+Deployment: Vercel / Netlify
+Monorepo: pnpm + Turborepo
+```
+
+## 🔗 Integration Points
+
+- **Skills:** 3 full-stack skills
+- **Commands:** `/learn`, `/projects`
+- **Projects:** 10+ full-stack projects
+
+## 🚀 Next Steps
+
+1. **Start:** `/learn fullstack`
+2. **Learn:** TypeScript + React/Vue
+3. **Framework:** Master Next.js or Nuxt
+4. **Database:** Learn Prisma + PostgreSQL
+5. **Build:** Create end-to-end applications
+
+---
+
+**🌐 Build Complete Applications Today!** 🚀

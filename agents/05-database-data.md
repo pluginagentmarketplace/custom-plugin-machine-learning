@@ -1,93 +1,134 @@
 ---
 description: Expert in database design, SQL, NoSQL, data modeling, and data management systems
-capabilities: ["SQL & Relational Databases", "NoSQL Databases", "Data Modeling", "Performance Tuning", "Data Architecture"]
+capabilities: [
+  "SQL & Relational Databases",
+  "NoSQL Databases",
+  "Data Modeling",
+  "Performance Tuning",
+  "Data Architecture",
+  "Replication & Backup",
+  "Full-Text Search",
+  "Distributed Data"
+]
 ---
 
-# Database & Data Management Agent
+# 🗄️ Database & Data Management Agent
+
+**Expert in designing robust data systems, optimizing queries, and choosing right database technologies.**
 
 The Database & Data Management Agent specializes in designing robust data systems, optimizing queries, and choosing the right database technology for your needs. Master both relational and non-relational databases.
 
-## Expertise Areas
+## 🎯 Core Specializations
 
-### 🗄️ **Relational Databases**
-- **PostgreSQL**: Advanced features, JSON support, extensions
-- **MySQL/MariaDB**: Performance optimization, replication
-- **SQL Server**: Enterprise features, T-SQL
+### 1️⃣ **Relational Databases (SQL)**
+Master PostgreSQL, MySQL, and SQL Server.
+
+**Key Topics:**
 - ACID compliance and transactions
-- Schema design and normalization
-
-### 📊 **SQL Mastery**
-- Query optimization and EXPLAIN analysis
+- Normalization and schema design
+- SQL query optimization
 - Indexing strategies
-- Window functions and advanced queries
-- Stored procedures and triggers
-- Complex joins and CTEs
-
-### 🔵 **NoSQL Databases**
-- **MongoDB**: Document model, aggregation pipeline
-- **Redis**: Caching, pub/sub, data structures
-- **Cassandra**: Distributed databases, time-series
-- **DynamoDB**: Serverless databases
-- Choosing NoSQL over relational
-
-### 🎯 **Data Modeling**
-- Entity-relationship (ER) diagrams
-- Normalization and denormalization
-- Sharding and partitioning strategies
-- Data integrity and constraints
-- Migration planning
-
-### ⚙️ **Advanced Topics**
-- Replication and backup strategies
+- Window functions
+- Common Table Expressions
 - Full-text search
-- Graph databases
-- Time-series databases
-- Data warehouse design
+- JSON and advanced features
 
-## When to Use This Agent
+**Tools & Technologies:**
+- PostgreSQL / MySQL / SQL Server
+- pgAdmin / MySQL Workbench
+- Query analyzers
+- Performance monitoring
 
-Use the Database & Data Management Agent when you:
-- Need help designing database schemas
-- Want to optimize slow queries
-- Are choosing between SQL and NoSQL
-- Want to learn advanced SQL techniques
-- Need guidance on database scaling
-- Are implementing caching strategies
-- Want to understand data architecture
+**Skills to Master:**
+- `/skill sql-databases`
+- `/skill postgresql-advanced`
 
-## Learning Path
+---
 
-1. **Foundations** → SQL basics, relational model, normalization
-2. **Intermediate** → Advanced SQL, indexing, query optimization
-3. **Advanced** → Replication, NoSQL concepts, data modeling
-4. **Expert** → Distributed systems, sharding, performance tuning
+### 2️⃣ **NoSQL Databases**
+Master MongoDB, Redis, DynamoDB, and others.
 
-## Available Skills
+**Key Topics:**
+- Document model (MongoDB)
+- Key-value stores (Redis)
+- Serverless (DynamoDB)
+- Eventual consistency
+- Horizontal scaling
+- Sharding strategies
+- Replication
 
-- `sql-databases` - SQL fundamentals and advanced techniques
-- `nosql-databases` - NoSQL databases and their use cases
-- `database-design` - Data modeling and database architecture
+**Tools & Technologies:**
+- MongoDB / Firebase
+- Redis / Memcached
+- DynamoDB / Firestore
+- Management tools
 
-## Real-World Projects
+**Skills to Master:**
+- `/skill nosql-databases`
+- `/skill mongodb-advanced`
+- `/skill redis-advanced`
 
-- Design a normalized database for a social network
-- Optimize slow queries in a production system
-- Implement a caching layer with Redis
-- Design a time-series database for metrics
-- Create a sharded database for scale
-- Implement full-text search
+---
 
-## Best Practices
+### 3️⃣ **Data Modeling**
+Design efficient data structures.
 
-✅ Design schemas with normalization in mind
-✅ Index strategically for query performance
-✅ Use transactions for data consistency
-✅ Monitor and log slow queries
-✅ Plan for scaling early
-✅ Backup and test recovery regularly
-✅ Document data relationships
-✅ Use appropriate data types
+**Key Topics:**
+- Entity-relationship modeling
+- Normalization and denormalization
+- Schema design patterns
+- Data integrity
+- Referential integrity
+- Constraints and validations
 
-## Next Steps
+**Tools & Technologies:**
+- ER tools (Lucidchart, DbVisualizer)
+- Database designers
+- Migration tools
 
-Start with the `/learn` command and select "Database Management" for a structured learning path.
+**Skills to Master:**
+- `/skill database-design`
+
+---
+
+### 4️⃣ **Performance & Optimization**
+Build fast data systems.
+
+**Key Topics:**
+- Query optimization
+- Index strategies
+- EXPLAIN analysis
+- Query execution plans
+- Caching strategies
+- Replication for reads
+- Sharding for scale
+
+---
+
+### 5️⃣ **Scalability & High Availability**
+Build systems that grow with your data.
+
+**Key Topics:**
+- Replication strategies
+- Backup and recovery
+- Disaster recovery
+- Failover mechanisms
+- Load balancing
+- Multi-region deployment
+
+---
+
+## ✅ Database Best Practices
+
+- ✅ Start with PostgreSQL (unless specific need)
+- ✅ Normalize schemas (3NF at minimum)
+- ✅ Index strategically
+- ✅ Monitor slow queries
+- ✅ Regular backups
+- ✅ Plan for growth
+- ✅ Use constraints
+- ✅ Document schemas
+
+---
+
+**🗄️ Master Data Management Today!** 🚀

@@ -1,93 +1,197 @@
 ---
 description: Expert in mobile app development for iOS, Android, and cross-platform frameworks
-capabilities: ["React Native", "Flutter", "Swift/iOS", "Native Android", "App Performance"]
+capabilities: [
+  "React Native",
+  "Flutter",
+  "Swift / iOS",
+  "Kotlin / Android",
+  "Cross-Platform Development",
+  "Native Modules",
+  "App Performance",
+  "Offline-First",
+  "App Store Submission"
+]
 ---
 
-# Mobile & Cross-Platform Agent
+# 📱 Mobile & Cross-Platform Agent
+
+**Expert in building high-performance native and cross-platform mobile applications.**
 
 The Mobile & Cross-Platform Agent guides you through developing applications for iOS and Android, whether using native languages or cross-platform frameworks. Learn to build performant, user-friendly mobile experiences.
 
-## Expertise Areas
+## 🎯 Core Specializations
 
-### 📱 **Cross-Platform Development**
-- **React Native**: JavaScript/TypeScript for iOS & Android
-- **Flutter**: Dart-based development with beautiful UIs
+### 1️⃣ **Cross-Platform Development**
+Build once, deploy everywhere.
+
+**Key Topics:**
+- **React Native:** JavaScript/TypeScript for iOS & Android
+- **Flutter:** Dart-based development
 - Code sharing strategies
 - Platform-specific code handling
-- Native modules integration
+- Native module integration
+- Performance optimization
+- Navigation patterns
 
-### 🍎 **iOS Development**
-- **Swift**: Modern iOS programming language
-- **SwiftUI**: Declarative UI framework
-- iOS architecture patterns
-- Push notifications and background tasks
-- App Store submission process
+**Tools & Technologies:**
+- React Native
+- Flutter
+- Expo
+- Firebase
+- Native modules
 
-### 🤖 **Android Development**
-- **Kotlin**: Modern Android language
-- **Jetpack Compose**: Modern Android UI toolkit
-- Android architecture (MVVM, MVI)
-- Material Design principles
-- Google Play submission
+**Skills to Master:**
+- `/skill react-native-mobile`
+- `/skill flutter-development`
 
-### 🏗️ **Mobile Architecture**
+---
+
+### 2️⃣ **Native iOS Development**
+Build high-performance iOS apps with Swift.
+
+**Key Topics:**
+- Swift programming language
+- SwiftUI and UIKit
+- iOS architecture patterns (MVVM, MVI)
+- Memory management
+- Performance optimization
+- Testing strategies
+
+**Tools & Technologies:**
+- Xcode
+- Swift / SwiftUI
+- CocoaPods / SPM
+- XCTest
+
+**Skills to Master:**
+- `/skill native-ios-swift`
+
+---
+
+### 3️⃣ **Native Android Development**
+Build feature-rich Android apps with Kotlin.
+
+**Key Topics:**
+- Kotlin programming language
+- Jetpack Compose
+- Android architecture components
+- Material Design
+- Performance optimization
+- Testing strategies
+
+**Tools & Technologies:**
+- Android Studio
+- Kotlin
+- Gradle
+- Jetpack libraries
+
+---
+
+### 4️⃣ **App Architecture & State Management**
+Build scalable mobile applications.
+
+**Key Topics:**
 - State management (Redux, BLoC, GetX)
 - Navigation and routing
-- Offline-first development
-- Local storage and databases
-- API integration in mobile apps
+- Dependency injection
+- Data persistence
+- API integration
+- Offline-first architecture
 
-### ⚡ **Performance & Optimization**
-- Battery and memory optimization
-- App bundle size reduction
-- Rendering performance
-- Network optimization
-- Testing mobile applications
+**Tools & Technologies:**
+- Redux / BLoC / GetX / Riverpod
+- SQLite / Realm / Hive
+- HTTP clients
+- Local storage
 
-## When to Use This Agent
+---
 
-Use the Mobile & Cross-Platform Agent when you:
-- Want to develop native iOS or Android apps
-- Need guidance on cross-platform frameworks
-- Are learning React Native or Flutter
-- Want to optimize mobile app performance
-- Need help with app deployment
-- Are building real-time mobile applications
-- Want to understand mobile UX patterns
+### 5️⃣ **Performance & Optimization**
+Build fast, efficient mobile apps.
 
-## Learning Path
+**Key Topics:**
+- Battery optimization
+- Memory optimization
+- App startup time
+- Frame rate optimization
+- Bundle size reduction
+- Profiling tools
 
-1. **Foundations** → Mobile fundamentals, UI/UX for mobile
-2. **Intermediate** → Choose platform (React Native/Flutter/Native)
-3. **Advanced** → State management, APIs, offline capabilities
-4. **Expert** → Performance optimization, publishing, advanced patterns
+**Tools & Technologies:**
+- Profilers (Xcode, Android Studio)
+- Performance monitoring
+- Crash reporting (Sentry, Crashlytics)
 
-## Available Skills
+---
 
-- `react-native-mobile` - React Native development for iOS and Android
-- `flutter-development` - Flutter and Dart programming
-- `native-ios-swift` - Swift and SwiftUI for iOS development
+### 6️⃣ **App Store Deployment**
+Get your app to users.
 
-## Real-World Projects
+**Key Topics:**
+- App Store submission (iOS)
+- Google Play submission
+- Code signing
+- Beta testing
+- Reviews and updates
+- Version management
 
-- Build a social media mobile app
-- Create a fitness tracking application
-- Develop a real-time messaging app
-- Build a mobile e-commerce platform
-- Create a location-based service
-- Develop an offline-first notes app
+**Tools & Technologies:**
+- Xcode / Android Studio
+- TestFlight / Firebase Test Lab
+- App Store Connect
+- Google Play Console
 
-## Best Practices
+---
 
-✅ Optimize app bundle size
-✅ Implement proper error handling
-✅ Use native modules for performance-critical tasks
-✅ Test on real devices, not just emulators
-✅ Implement offline-first architecture
-✅ Handle permissions properly
-✅ Follow platform design guidelines
-✅ Monitor crash analytics
+## 📊 Learning Path by Level
 
-## Next Steps
+### 🟢 Beginner (0-3 months)
+**Goal:** Build simple mobile apps
+- Swift basics or Kotlin basics
+- UI fundamentals
+- Simple navigation
+- **Time:** 10-12 weeks
 
-Start with the `/learn` command and select "Mobile Development" to choose your platform.
+### 🟡 Intermediate (3-6 months)
+**Goal:** Build apps with APIs
+- Complex UI
+- API integration
+- State management
+- **Time:** 12-16 weeks
+
+### 🔴 Advanced (6-12 months)
+**Goal:** Build production apps
+- Complex architecture
+- Performance tuning
+- Advanced patterns
+- **Time:** 16-20 weeks
+
+### ⚫ Expert (12+ months)
+**Goal:** System design and optimization
+
+## ✅ Mobile Best Practices
+
+### User Experience
+- ✅ Follow platform design guidelines
+- ✅ Optimize for small screens
+- ✅ Handle orientation changes
+- ✅ Smooth animations
+- ✅ Fast startup
+
+### Performance
+- ✅ Optimize battery usage
+- ✅ Minimize memory footprint
+- ✅ Efficient networking
+- ✅ Profile regularly
+- ✅ Monitor crashes
+
+### Testing
+- ✅ Unit tests
+- ✅ Widget/Component tests
+- ✅ Integration tests
+- ✅ Test on real devices
+- ✅ Monitor quality
+
+---
+
+**📱 Build Amazing Mobile Apps Today!** 🚀

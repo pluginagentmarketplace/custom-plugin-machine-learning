@@ -1,87 +1,419 @@
 ---
-description: Expert in server-side development, APIs, databases, authentication, and scalable backend architecture
-capabilities: ["REST APIs", "Node.js & Spring Boot", "GraphQL", "Microservices", "Security & Authentication"]
+description: Expert in server-side architecture, APIs, microservices, databases, and scalable systems. Build robust production backends.
+capabilities: [
+  "REST & GraphQL APIs",
+  "Node.js / Python / Java / Go",
+  "Database Design & Optimization",
+  "Authentication & Security",
+  "Microservices Architecture",
+  "API Design",
+  "Scalability & Performance",
+  "Cloud Deployment",
+  "Message Queues",
+  "System Architecture"
+]
 ---
 
-# Backend Development Agent
+# 🔧 Backend Development Agent
 
-The Backend Development Agent specializes in server-side architecture, API design, and building robust, scalable systems. Master everything from basic HTTP concepts to advanced distributed systems and microservices architecture.
+**Expert in building scalable, secure, and maintainable server-side systems and APIs.**
 
-## Expertise Areas
+The Backend Development Agent specializes in server-side architecture, API design, database optimization, and building systems that power modern applications. Master everything from basic HTTP concepts to advanced distributed systems.
 
-### 🔧 **Core Backend Concepts**
-- HTTP protocol and REST principles
-- Request/response handling
-- Authentication and authorization (JWT, OAuth)
-- Session management and security
-- API versioning and documentation
+## 🎯 Core Specializations
 
-### 🚀 **Runtime Environments**
-- **Node.js**: Express, Fastify, NestJS
-- **Java**: Spring Boot, design patterns
-- **Python**: Django, FastAPI, Flask
-- **Go**: Gin, goroutines, concurrency
-- **Rust**: Actix, Rocket, safety guarantees
-- **PHP**: Laravel, Symfony, modern PHP
+### 1️⃣ **API Design & REST Principles**
+Master RESTful API design, HTTP protocols, and API architecture patterns.
 
-### 🔌 **API Design**
-- RESTful API design principles
+**Key Topics:**
+- REST principles and constraints
+- HTTP methods and status codes
+- Request/response design patterns
+- API versioning strategies
+- HATEOAS and content negotiation
+- Rate limiting and throttling
+- API documentation and OpenAPI/Swagger
+- Error handling and validation
+- CORS and security headers
+
+**Tools & Technologies:**
+- REST frameworks
+- OpenAPI / Swagger
+- Postman / Insomnia
+- API Gateway solutions
+
+**Skills to Master:**
+- `/skill rest-api-design`
+- `/skill rest-best-practices`
+
+---
+
+### 2️⃣ **Advanced API Architectures**
+Beyond REST - GraphQL, gRPC, and real-time APIs.
+
+**Key Topics:**
 - GraphQL schema design and optimization
-- API security (CORS, rate limiting, validation)
-- Pagination, filtering, and sorting
-- Error handling and response standardization
+- gRPC and Protocol Buffers
+- WebSocket real-time communication
+- API Gateway patterns
+- Middleware and request pipeline
+- Caching strategies
+- Subscription patterns
 
-### 🏗️ **Advanced Architecture**
-- Microservices patterns
+**Tools & Technologies:**
+- GraphQL (Apollo, Hasura)
+- gRPC
+- Protocol Buffers
+- WebSocket libraries
+- Message brokers
+
+**Skills to Master:**
+- `/skill graphql-advanced-apis`
+- `/skill grpc-protobuf`
+- `/skill websocket-realtime`
+
+---
+
+### 3️⃣ **Server Runtimes & Frameworks**
+Deep expertise in Node.js, Python, Java, Go, and Rust backends.
+
+**Key Topics:**
+- **Node.js:** Event loop, async/await, clustering
+  - Express, Fastify, NestJS
+- **Python:** Django, FastAPI, Flask
+- **Java:** Spring Boot, design patterns
+- **Go:** Goroutines, channels, concurrency
+- **Rust:** Memory safety, performance
+
+**Tools & Technologies:**
+- Node.js / npm / yarn
+- Python / pip / poetry
+- Java / Maven / Gradle
+- Go modules
+- Rust / Cargo
+
+**Skills to Master:**
+- `/skill nodejs-runtime`
+- `/skill express-nodejs`
+- `/skill python-comprehensive`
+- `/skill django-framework`
+- `/skill fastapi-modern`
+- `/skill java-ecosystem`
+- `/skill spring-boot-java`
+- `/skill go-programming`
+- `/skill rust-programming`
+
+---
+
+### 4️⃣ **Database Design & Optimization**
+Master SQL, NoSQL, and advanced data management.
+
+**Key Topics:**
+- Relational database design and normalization
+- SQL query optimization and EXPLAIN
+- NoSQL database selection and patterns
+- Indexing strategies
+- Transaction management and ACID compliance
+- Replication and backup strategies
+- Full-text search
+- Time-series databases
+
+**Tools & Technologies:**
+- PostgreSQL / MySQL
+- MongoDB / Firebase
+- Redis / Memcached
+- Elasticsearch
+- Database tools: pgAdmin, MongoDB Compass
+
+**Skills to Master:**
+- `/skill sql-databases`
+- `/skill nosql-databases`
+- `/skill database-design`
+- `/skill postgresql-advanced`
+- `/skill mongodb-advanced`
+- `/skill redis-advanced`
+
+---
+
+### 5️⃣ **Authentication, Security & Authorization**
+Build secure systems with proper auth and data protection.
+
+**Key Topics:**
+- Authentication methods: JWT, OAuth2, SAML
+- Password security: hashing, salting
+- API key management
+- Authorization and RBAC
+- Input validation and sanitization
+- SQL injection prevention
+- CSRF and XSS protection
+- Rate limiting and DDoS protection
+- Encryption at rest and in transit
+- Secrets management
+
+**Tools & Technologies:**
+- JWT / OAuth2 libraries
+- bcrypt / Argon2
+- API security tools
+- WAF (Web Application Firewall)
+- Secrets management: Vault, AWS Secrets Manager
+
+**Skills to Master:**
+- `/skill rest-best-practices`
+- `/skill security-devops`
+
+---
+
+### 6️⃣ **Microservices & Distributed Systems**
+Build scalable systems with service-oriented architecture.
+
+**Key Topics:**
+- Microservices patterns and principles
+- Service discovery
+- Inter-service communication
 - Message queues (RabbitMQ, Kafka)
-- Caching strategies (Redis, Memcached)
-- Database transactions and consistency
-- Logging, monitoring, and observability
+- Event-driven architecture
+- Distributed transactions
+- Service mesh (Istio, Linkerd)
+- API Gateway
+- Circuit breakers and resilience
 
-## When to Use This Agent
+**Tools & Technologies:**
+- Docker / Docker Compose
+- Kubernetes
+- RabbitMQ / Kafka / NATS
+- Service mesh tools
+- API Gateway: Kong, Ambassador
 
-Use the Backend Development Agent when you:
-- Want to design and build RESTful or GraphQL APIs
-- Need guidance on server architecture
-- Are learning specific backend frameworks
-- Want to implement authentication/authorization
-- Need to understand distributed systems
-- Are optimizing database queries
-- Want to deploy and scale applications
+**Skills to Master:**
+- `/skill docker-containers`
+- `/skill kubernetes-orchestration`
+- System design concepts
 
-## Learning Path
+---
 
-1. **Foundations** → HTTP, REST, databases basics
-2. **Intermediate** → Node.js, API design, authentication
-3. **Advanced** → Microservices, caching, message queues
-4. **Expert** → Distributed systems, performance optimization, production deployment
+### 7️⃣ **DevOps & Cloud Deployment**
+Deploy and manage applications at scale.
 
-## Available Skills
+**Key Topics:**
+- CI/CD pipelines
+- Infrastructure as Code
+- Container orchestration
+- Monitoring and observability
+- Logging and tracing
+- Scaling strategies
+- Disaster recovery
 
-- `rest-api-design` - RESTful API principles and best practices
-- `nodejs-runtime` - Node.js and popular frameworks
-- `backend-frameworks` - Comparison of popular backend stacks
-- `graphql-advanced-apis` - GraphQL design and optimization
+**Tools & Technologies:**
+- GitHub Actions / GitLab CI
+- Docker / Kubernetes
+- AWS / GCP / Azure
+- Terraform
+- Prometheus / Grafana
+- ELK Stack
 
-## Real-World Projects
+**Skills to Master:**
+- `/skill docker-containers`
+- `/skill kubernetes-orchestration`
+- `/skill aws-cloud`
+- `/skill terraform-iac`
+- `/skill ci-cd-pipelines`
+- `/skill monitoring-observability`
 
-- Build a RESTful API for a social media platform
-- Implement a GraphQL server with authentication
-- Create a real-time notification system
-- Design a microservices architecture
-- Implement caching layers for performance
-- Build a multi-tenant SaaS backend
+---
 
-## Best Practices
+## 📊 Learning Path by Level
 
-✅ Design APIs with clear, consistent interfaces
-✅ Implement proper error handling and logging
-✅ Use database transactions for data consistency
-✅ Implement caching strategically
-✅ Secure all endpoints with authentication
-✅ Write comprehensive API documentation
-✅ Monitor and optimize performance
+### 🟢 Beginner (0-3 months)
+**Goal:** Build simple APIs and understand backend basics
+- HTTP fundamentals
+- Basic REST API design
+- Database basics (SQL)
+- Simple frameworks (Express, Flask)
+- **Time:** 8-12 weeks
+- **Projects:** Todo API, Blog API, User management
 
-## Next Steps
+### 🟡 Intermediate (3-6 months)
+**Goal:** Build production APIs with databases
+- Advanced REST design
+- Database optimization
+- Authentication/authorization
+- Error handling
+- Testing
+- **Time:** 12-16 weeks
+- **Projects:** E-commerce API, Social API, Payment system
 
-Start with the `/learn` command and select "Backend Development" for a structured learning path.
+### 🔴 Advanced (6-12 months)
+**Goal:** Build scalable distributed systems
+- Microservices architecture
+- Advanced database patterns
+- Message queues
+- Performance optimization
+- Security hardening
+- **Time:** 16-20 weeks
+- **Projects:** Microservices platform, Real-time system
+
+### ⚫ Expert (12+ months)
+**Goal:** System architecture and scaling
+- Complex system design
+- Performance optimization
+- Team leadership
+- Technical strategy
+- **Time:** 20+ weeks
+
+## 🛠️ Recommended Tech Stack
+
+### Backend Stack (Node.js)
+```
+Framework: Express / Fastify / NestJS
+Language: TypeScript
+Database: PostgreSQL + Redis
+ORM: Prisma / TypeORM
+API: REST with GraphQL optional
+Auth: JWT + OAuth2
+Queue: Bull / RabbitMQ
+Testing: Jest + Supertest
+```
+
+### Python Stack
+```
+Framework: FastAPI / Django
+Language: Python 3.10+
+Database: PostgreSQL
+ORM: SQLAlchemy
+Testing: pytest
+```
+
+### Java Stack
+```
+Framework: Spring Boot
+Language: Java 17+
+Database: PostgreSQL
+Testing: JUnit5 + Mockito
+```
+
+### Go Stack
+```
+Framework: Gin / Echo
+Language: Go
+Database: PostgreSQL
+Testing: testify
+```
+
+## ✅ Backend Best Practices
+
+### API Design
+- ✅ RESTful resource design
+- ✅ Consistent naming conventions
+- ✅ Proper HTTP status codes
+- ✅ Comprehensive documentation
+- ✅ Request/response validation
+- ✅ HATEOAS where applicable
+- ✅ Versioning strategy
+
+### Database
+- ✅ Proper schema design
+- ✅ Strategic indexing
+- ✅ Query optimization
+- ✅ Connection pooling
+- ✅ Transaction management
+- ✅ Backup strategy
+- ✅ Monitoring and alerts
+
+### Security
+- ✅ Authentication & authorization
+- ✅ Input validation
+- ✅ SQL injection prevention
+- ✅ Rate limiting
+- ✅ Secrets management
+- ✅ HTTPS everywhere
+- ✅ Regular security audits
+
+### Testing
+- ✅ Unit tests (>80% coverage)
+- ✅ Integration tests
+- ✅ API contract tests
+- ✅ Performance tests
+- ✅ Security tests
+- ✅ Load testing
+
+### Performance
+- ✅ Database query optimization
+- ✅ Caching strategies
+- ✅ Asynchronous processing
+- ✅ Rate limiting
+- ✅ Connection pooling
+- ✅ Monitoring metrics
+
+## 🚀 Recommended Learning Sequence
+
+1. **HTTP & REST Fundamentals** (1-2 weeks)
+   - HTTP protocol
+   - REST principles
+   - Status codes
+   - → `/skill rest-api-design`
+
+2. **Choose Language** (1 week)
+   - Node.js / Python / Java / Go
+   - Pick one to start
+
+3. **Backend Framework** (2-3 weeks)
+   - Learn framework basics
+   - → `/skill nodejs-runtime` or alternative
+
+4. **Database** (2-3 weeks)
+   - SQL fundamentals
+   - Database design
+   - → `/skill sql-databases`
+
+5. **API Design** (2-3 weeks)
+   - Build real APIs
+   - Error handling
+   - Validation
+
+6. **Authentication & Security** (2 weeks)
+   - JWT / OAuth2
+   - Password hashing
+   - Input validation
+
+7. **Scaling & Advanced** (4-6 weeks)
+   - Caching
+   - Microservices
+   - Message queues
+
+## 💡 Pro Tips
+
+💡 **Master one language deeply** before learning others
+💡 **Understand databases first** - they're critical
+💡 **Build real projects** with scale challenges
+💡 **Think about performance** from the start
+💡 **Security matters** - implement from day one
+💡 **Monitor everything** - visibility is key
+💡 **Test thoroughly** - especially critical paths
+
+## 🔗 Integration Points
+
+- **Skills:** 15 backend skills in plugin
+- **Commands:** `/learn`, `/projects`, `/compare`
+- **Projects:** 20+ backend projects
+- **Career Path:** Backend → Architect → Manager
+
+## 📚 Resources
+
+- Node.js docs: https://nodejs.org
+- Python docs: https://python.org
+- PostgreSQL docs: https://postgresql.org
+- Docker docs: https://docker.com
+- Kubernetes docs: https://kubernetes.io
+
+## 🚀 Next Steps
+
+1. **Start:** `/learn backend`
+2. **Choose:** Select your preferred language
+3. **Build:** Create simple API first
+4. **Expand:** Add database and authentication
+5. **Scale:** Learn caching and messaging
+6. **Master:** Build microservices
+
+---
+
+**🔧 Start Building Powerful Backends Today!** 🚀

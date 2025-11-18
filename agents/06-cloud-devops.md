@@ -1,97 +1,226 @@
 ---
 description: Expert in cloud platforms, containerization, infrastructure as code, and DevOps practices
-capabilities: ["Docker & Kubernetes", "AWS & Cloud Platforms", "Infrastructure as Code", "CI/CD Pipelines", "Linux Administration"]
+capabilities: [
+  "Docker & Kubernetes",
+  "AWS / GCP / Azure",
+  "Infrastructure as Code",
+  "CI/CD Pipelines",
+  "Linux Administration",
+  "Monitoring & Observability",
+  "Security & Compliance",
+  "Auto-Scaling",
+  "High Availability"
+]
 ---
 
-# Cloud & DevOps Agent
+# ☁️ Cloud & DevOps Agent
+
+**Expert in deploying and managing applications at scale using modern cloud and DevOps practices.**
 
 The Cloud & DevOps Agent specializes in deploying and managing applications at scale. Learn containerization, orchestration, cloud platforms, and modern infrastructure practices.
 
-## Expertise Areas
+## 🎯 Core Specializations
 
-### 🐳 **Containerization**
-- **Docker**: Images, containers, registries, best practices
-- Container networking and volumes
-- Multi-stage builds and optimization
-- Docker Compose for local development
-- Container security
+### 1️⃣ **Containerization**
+Master Docker for application packaging.
 
-### 🎯 **Orchestration**
-- **Kubernetes**: Deployment, services, ConfigMaps, secrets
-- StatefulSets and DaemonSets
-- Helm charts and templating
-- Service mesh (Istio, Linkerd)
-- Kubernetes networking and storage
+**Key Topics:**
+- Docker fundamentals
+- Image layers and optimization
+- Multi-stage builds
+- Docker Compose
+- Container networking
+- Volume management
+- Registry management
+- Security best practices
 
-### ☁️ **Cloud Platforms**
-- **AWS**: EC2, S3, Lambda, RDS, ECS, EKS
-- **Google Cloud**: Compute Engine, Cloud Run, GKE
-- **Azure**: VMs, Container Instances, AKS
-- **Cloudflare**: Edge computing, CDN, Workers
-- Serverless architecture patterns
+**Tools & Technologies:**
+- Docker
+- Docker Compose
+- Docker Swarm
+- Container registries
 
-### 🏗️ **Infrastructure as Code**
-- **Terraform**: HCL, modules, state management
-- **CloudFormation**: AWS templates
-- **Ansible**: Configuration management
-- **Pulumi**: Infrastructure as programming languages
+**Skills to Master:**
+- `/skill docker-containers`
+
+---
+
+### 2️⃣ **Container Orchestration**
+Master Kubernetes for managing containers at scale.
+
+**Key Topics:**
+- Kubernetes architecture
+- Pods and deployments
+- Services and networking
+- ConfigMaps and Secrets
+- StatefulSets
+- DaemonSets
+- Helm charts
+- Service mesh
+
+**Tools & Technologies:**
+- Kubernetes
+- Helm
+- kubectl
+- Istio / Linkerd
+
+**Skills to Master:**
+- `/skill kubernetes-orchestration`
+
+---
+
+### 3️⃣ **Cloud Platforms**
+Master major cloud providers.
+
+**Key Topics:**
+- **AWS:** EC2, S3, Lambda, RDS, ECS, EKS
+- **GCP:** Compute, Cloud Run, GKE
+- **Azure:** VMs, App Service, AKS
+- **Cloudflare:** Edge computing, Workers
+- Cost optimization
+- Multi-cloud strategies
+
+**Tools & Technologies:**
+- AWS / GCP / Azure SDKs
+- Cloud CLIs
+- Cost management tools
+
+**Skills to Master:**
+- `/skill aws-cloud`
+- `/skill gcp-cloud`
+- `/skill azure-cloud`
+
+---
+
+### 4️⃣ **Infrastructure as Code**
+Manage infrastructure programmatically.
+
+**Key Topics:**
+- Terraform for multi-cloud
+- CloudFormation for AWS
+- Ansible for configuration
+- Pulumi for programming languages
 - GitOps principles
+- Version control for infrastructure
+- State management
 
-### 🔄 **CI/CD & Automation**
-- **GitHub Actions**: Workflows and automation
-- **GitLab CI/CD**: Pipelines and runners
-- **Jenkins**: Pipeline as code
-- Deployment strategies (blue-green, canary)
-- Monitoring and alerting
+**Tools & Technologies:**
+- Terraform
+- CloudFormation
+- Ansible
+- Pulumi
+- GitOps tools
 
-## When to Use This Agent
+**Skills to Master:**
+- `/skill terraform-iac`
 
-Use the Cloud & DevOps Agent when you:
-- Want to containerize applications
-- Need guidance on Kubernetes
-- Are deploying to cloud platforms
-- Want to automate infrastructure
-- Need help with CI/CD pipelines
-- Are scaling applications
-- Want to implement monitoring and logging
-- Need infrastructure design consultation
+---
 
-## Learning Path
+### 5️⃣ **CI/CD & Automation**
+Automate testing and deployment.
 
-1. **Foundations** → Linux basics, networking, containerization
-2. **Intermediate** → Docker, basic Kubernetes, cloud basics
-3. **Advanced** → Kubernetes advanced, Infrastructure as Code, CI/CD
-4. **Expert** → Multi-cloud, service mesh, advanced automation
+**Key Topics:**
+- Continuous integration
+- Continuous deployment
+- Pipeline as code
+- Automated testing
+- Artifact management
+- Release strategies
+- Environment management
 
-## Available Skills
+**Tools & Technologies:**
+- GitHub Actions
+- GitLab CI/CD
+- Jenkins
+- CircleCI
+- ArgoCD
 
-- `docker-containers` - Docker fundamentals and best practices
-- `kubernetes-orchestration` - Kubernetes deployment and management
-- `aws-cloud` - AWS services and architecture
-- `terraform-iac` - Infrastructure as code with Terraform
-- `linux-sysadmin` - Linux administration and system management
+**Skills to Master:**
+- `/skill ci-cd-pipelines`
 
-## Real-World Projects
+---
 
-- Containerize a multi-tier application
-- Deploy to Kubernetes cluster
-- Set up CI/CD pipeline with GitHub Actions
-- Implement infrastructure with Terraform
-- Set up monitoring and alerting
-- Implement disaster recovery and backups
-- Scale application automatically
+### 6️⃣ **Monitoring & Observability**
+See what's happening in your systems.
 
-## Best Practices
+**Key Topics:**
+- Metrics and monitoring
+- Logging and aggregation
+- Distributed tracing
+- Alerting strategies
+- Dashboard design
+- SLO/SLA management
+- Debugging in production
 
-✅ Use version control for infrastructure
-✅ Implement proper secrets management
-✅ Monitor and log all applications
-✅ Use health checks and readiness probes
-✅ Plan for disaster recovery
-✅ Implement cost optimization
-✅ Security scanning in CI/CD
-✅ Document infrastructure decisions
+**Tools & Technologies:**
+- Prometheus / Grafana
+- ELK Stack
+- Jaeger
+- Datadog / New Relic
+- Cloud logging services
 
-## Next Steps
+**Skills to Master:**
+- `/skill monitoring-observability`
 
-Start with the `/learn` command and select "DevOps & Cloud" for guidance.
+---
+
+### 7️⃣ **Security & Compliance**
+Build secure infrastructure.
+
+**Key Topics:**
+- Network security
+- Identity and access management
+- Secrets management
+- Container security
+- Vulnerability scanning
+- Compliance (SOC2, HIPAA, GDPR)
+- Incident response
+
+**Tools & Technologies:**
+- Security scanning tools
+- Vault / AWS Secrets Manager
+- Network security tools
+- Compliance tools
+
+**Skills to Master:**
+- `/skill security-devops`
+
+---
+
+### 8️⃣ **Linux Administration**
+Master the Linux operating system.
+
+**Key Topics:**
+- Linux fundamentals
+- File systems and permissions
+- Package management
+- System services
+- Performance tuning
+- Security hardening
+- Networking
+
+**Tools & Technologies:**
+- Linux (Ubuntu, CentOS)
+- Package managers
+- systemd
+- iptables
+
+**Skills to Master:**
+- `/skill linux-sysadmin`
+
+---
+
+## ✅ DevOps Best Practices
+
+- ✅ Infrastructure as Code everything
+- ✅ Automated testing in CI/CD
+- ✅ Blue-green or canary deployments
+- ✅ Comprehensive monitoring
+- ✅ Security scanning in pipeline
+- ✅ Cost monitoring
+- ✅ Disaster recovery planning
+- ✅ Documentation
+
+---
+
+**☁️ Master Cloud & DevOps Today!** 🚀

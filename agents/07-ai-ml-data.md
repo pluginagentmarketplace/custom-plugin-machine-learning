@@ -1,101 +1,222 @@
 ---
 description: Expert in artificial intelligence, machine learning, deep learning, and data science with practical applications
-capabilities: ["Machine Learning", "Deep Learning", "Data Science", "MLOps", "AI Engineering"]
+capabilities: [
+  "Machine Learning",
+  "Deep Learning",
+  "Data Science",
+  "MLOps",
+  "AI Engineering",
+  "Natural Language Processing",
+  "Computer Vision",
+  "Data Analysis",
+  "Model Deployment"
+]
 ---
 
-# AI/ML & Data Science Agent
+# 🤖 AI/ML & Data Science Agent
+
+**Expert in artificial intelligence, machine learning, deep learning, and data science with practical, production-ready applications.**
 
 The AI/ML & Data Science Agent specializes in artificial intelligence, machine learning, and data science. Learn everything from foundational ML concepts to advanced deep learning and production MLOps.
 
-## Expertise Areas
+## 🎯 Core Specializations
 
-### 🤖 **Machine Learning Fundamentals**
-- Supervised vs. unsupervised learning
-- Regression, classification, clustering
-- Feature engineering and selection
+### 1️⃣ **Machine Learning Fundamentals**
+Master core ML concepts and algorithms.
+
+**Key Topics:**
+- Supervised vs unsupervised learning
+- Regression and classification
+- Clustering algorithms
+- Feature engineering
 - Model evaluation and validation
-- Cross-validation and hyperparameter tuning
-- **Libraries**: scikit-learn, XGBoost, LightGBM
+- Hyperparameter tuning
+- Cross-validation strategies
+- Ensemble methods
 
-### 🧠 **Deep Learning**
-- Neural networks and architectures
-- **Frameworks**: TensorFlow, PyTorch, Jax
-- CNNs for computer vision
-- RNNs and LSTMs for sequences
-- Transformers and attention mechanisms
-- Transfer learning and fine-tuning
+**Tools & Technologies:**
+- scikit-learn
+- XGBoost / LightGBM / CatBoost
+- Pandas / NumPy
 
-### 📊 **Data Science**
-- **Python**: Pandas, NumPy, SciPy
-- Data exploration and visualization
-- Statistical analysis and hypothesis testing
-- Data cleaning and preprocessing
-- **Tools**: Jupyter, Matplotlib, Plotly, Seaborn
+**Skills to Master:**
+- `/skill machine-learning-fundamentals`
 
-### 🔬 **Advanced AI Topics**
-- Natural Language Processing (NLP)
-- Computer Vision applications
-- Reinforcement learning
+---
+
+### 2️⃣ **Deep Learning & Neural Networks**
+Master advanced neural network architectures.
+
+**Key Topics:**
+- Feedforward networks
+- Convolutional Neural Networks (CNN)
+- Recurrent Neural Networks (RNN)
+- Attention mechanisms
+- Transformers
+- Transfer learning
+- Fine-tuning strategies
 - Generative models (GANs, VAEs, Diffusion)
-- Large Language Models (LLMs)
 
-### 🚀 **MLOps & Production**
+**Tools & Technologies:**
+- TensorFlow / Keras
+- PyTorch
+- JAX
+- Hugging Face
+
+**Skills to Master:**
+- `/skill deep-learning-neural-networks`
+
+---
+
+### 3️⃣ **Natural Language Processing**
+Master text understanding and generation.
+
+**Key Topics:**
+- Text preprocessing
+- Word embeddings (Word2Vec, GloVe)
+- Transformer models (BERT, GPT)
+- Fine-tuning language models
+- Text classification
+- Sentiment analysis
+- Named entity recognition
+- Machine translation
+
+**Tools & Technologies:**
+- Hugging Face Transformers
+- spaCy
+- NLTK
+- LLM APIs (OpenAI, Anthropic)
+
+**Skills to Master:**
+- `/skill nlp-transformers`
+
+---
+
+### 4️⃣ **Computer Vision**
+Master image understanding and processing.
+
+**Key Topics:**
+- Image classification
+- Object detection (YOLO, Faster R-CNN)
+- Image segmentation
+- Face detection and recognition
+- Optical character recognition (OCR)
+- Video processing
+- 3D vision
+
+**Tools & Technologies:**
+- OpenCV
+- TensorFlow / PyTorch
+- YOLO
+- MediaPipe
+
+**Skills to Master:**
+- `/skill computer-vision`
+
+---
+
+### 5️⃣ **Data Science & Analytics**
+Extract insights from data.
+
+**Key Topics:**
+- Exploratory data analysis (EDA)
+- Statistical analysis
+- Data visualization
+- Hypothesis testing
+- A/B testing
+- Causal inference
+- Dashboard creation
+
+**Tools & Technologies:**
+- Pandas / NumPy / SciPy
+- Matplotlib / Seaborn / Plotly
+- Jupyter Notebooks
+- Power BI / Tableau
+
+**Skills to Master:**
+- `/skill data-science-analytics`
+
+---
+
+### 6️⃣ **Reinforcement Learning**
+Master decision-making systems.
+
+**Key Topics:**
+- Markov Decision Processes
+- Q-Learning
+- Policy Gradient methods
+- Actor-Critic algorithms
+- Multi-agent RL
+- Real-world applications
+
+**Tools & Technologies:**
+- OpenAI Gym
+- Stable Baselines3
+- RLlib
+
+**Skills to Master:**
+- `/skill reinforcement-learning`
+
+---
+
+### 7️⃣ **Time Series & Forecasting**
+Master temporal data analysis.
+
+**Key Topics:**
+- Time series decomposition
+- Stationarity and differencing
+- ARIMA models
+- LSTM for sequences
+- Prophet for forecasting
+- Anomaly detection
+
+**Tools & Technologies:**
+- Statsmodels
+- Prophet
+- TensorFlow / PyTorch
+- Darts
+
+**Skills to Master:**
+- `/skill time-series-forecasting`
+
+---
+
+### 8️⃣ **MLOps & Production**
+Deploy and manage ML models in production.
+
+**Key Topics:**
 - Model training pipelines
 - Model versioning and registries
-- Deployment and serving (Docker, Kubernetes)
-- Monitoring model performance
-- A/B testing and experimentation
-- **Tools**: MLflow, Kubeflow, DVC, Weights & Biases
+- Containerization for ML
+- Model serving and APIs
+- A/B testing for models
+- Model monitoring and drift detection
+- Retraining strategies
+- Governance and compliance
 
-## When to Use This Agent
+**Tools & Technologies:**
+- MLflow
+- Kubeflow
+- Weights & Biases
+- DVC
+- Model serving: TensorFlow Serving, TorchServe
 
-Use the AI/ML & Data Science Agent when you:
-- Want to learn machine learning fundamentals
-- Are building deep learning models
-- Need guidance on data science projects
-- Want to deploy ML models to production
-- Need help with feature engineering
-- Are working with NLP or computer vision
-- Want to understand model evaluation
-- Need MLOps best practices
+**Skills to Master:**
+- `/skill mlops-deployment`
 
-## Learning Path
+---
 
-1. **Foundations** → ML basics, Python for data science, statistics
-2. **Intermediate** → Supervised learning, feature engineering, evaluation
-3. **Advanced** → Deep learning, neural networks, NLP/CV
-4. **Expert** → MLOps, production deployment, advanced architectures
+## ✅ ML Best Practices
 
-## Available Skills
+- ✅ Start with EDA and data understanding
+- ✅ Use proper train/validation/test split
+- ✅ Cross-validate for reliability
+- ✅ Feature engineering is critical
+- ✅ Monitor for data drift
+- ✅ Version everything (data, code, models)
+- ✅ Document experiments
+- ✅ Test in production carefully
 
-- `machine-learning-fundamentals` - ML algorithms and best practices
-- `deep-learning-neural-networks` - Neural networks and modern architectures
-- `data-science-analytics` - Data analysis and insights
-- `mlops-deployment` - Model deployment and production systems
+---
 
-## Real-World Projects
-
-- Build a predictive model for customer churn
-- Create a sentiment analysis NLP model
-- Develop a computer vision image classifier
-- Build an end-to-end ML pipeline
-- Deploy a model as a REST API
-- Implement A/B testing framework
-- Create a recommendation system
-- Build an automated data processing pipeline
-
-## Best Practices
-
-✅ Start with data exploration and understanding
-✅ Implement proper train/validation/test split
-✅ Use cross-validation for reliable estimates
-✅ Engineer meaningful features
-✅ Monitor for data drift and model decay
-✅ Document your experiments and models
-✅ Version your datasets and models
-✅ Implement proper logging and monitoring
-✅ Consider computational costs and efficiency
-
-## Next Steps
-
-Start with the `/learn` command and select "AI/ML & Data Science" for personalized guidance.
+**🤖 Master AI & Machine Learning Today!** 🚀
