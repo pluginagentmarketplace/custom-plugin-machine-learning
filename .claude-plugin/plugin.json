@@ -1,0 +1,240 @@
+{
+  "name": "Developer Roadmap ML Plugin",
+  "version": "1.0.0",
+  "description": "Comprehensive learning and development plugin with AI/ML focus. Contains 8 specialized agents covering frontend, backend, full-stack, mobile, databases, cloud/DevOps, AI/ML, and specialized roles with 50+ interactive skills.",
+  "author": "Plugin Agent Marketplace",
+  "repository": "https://github.com/pluginagentmarketplace/custom-plugin-machine-learning",
+  "keywords": [
+    "learning",
+    "development",
+    "roadmap",
+    "ai",
+    "machine-learning",
+    "agent-skills",
+    "developer-training"
+  ],
+  "agents": [
+    {
+      "id": "frontend-dev-agent",
+      "name": "Frontend Development Agent",
+      "file": "agents/01-frontend-development.md",
+      "description": "Expert in modern frontend technologies, frameworks, and UI/UX practices"
+    },
+    {
+      "id": "backend-dev-agent",
+      "name": "Backend Development Agent",
+      "file": "agents/02-backend-development.md",
+      "description": "Specializes in backend systems, APIs, and server-side architecture"
+    },
+    {
+      "id": "fullstack-web-agent",
+      "name": "Full Stack & Web Agent",
+      "file": "agents/03-fullstack-web.md",
+      "description": "Covers full-stack development, web technologies, and modern web practices"
+    },
+    {
+      "id": "mobile-crossplatform-agent",
+      "name": "Mobile & Cross-Platform Agent",
+      "file": "agents/04-mobile-crossplatform.md",
+      "description": "Expertise in mobile development, native and cross-platform solutions"
+    },
+    {
+      "id": "database-data-agent",
+      "name": "Database & Data Management Agent",
+      "file": "agents/05-database-data.md",
+      "description": "Specializes in database design, SQL, NoSQL, and data management"
+    },
+    {
+      "id": "cloud-devops-agent",
+      "name": "Cloud & DevOps Agent",
+      "file": "agents/06-cloud-devops.md",
+      "description": "Expert in cloud platforms, containerization, and infrastructure automation"
+    },
+    {
+      "id": "ai-ml-data-agent",
+      "name": "AI/ML & Data Science Agent",
+      "file": "agents/07-ai-ml-data.md",
+      "description": "Specializes in artificial intelligence, machine learning, and data science"
+    },
+    {
+      "id": "specialized-architect-agent",
+      "name": "Specialized Roles & Architecture Agent",
+      "file": "agents/08-specialized-architect.md",
+      "description": "Covers specialized roles, system architecture, and leadership positions"
+    }
+  ],
+  "commands": [
+    {
+      "name": "learn",
+      "file": "commands/learn.md",
+      "description": "Start a learning path and get recommendations based on your goals"
+    },
+    {
+      "name": "explore",
+      "file": "commands/explore.md",
+      "description": "Explore all available agents and their specialized areas"
+    },
+    {
+      "name": "roadmap",
+      "file": "commands/roadmap.md",
+      "description": "Find and analyze specific developer roadmaps"
+    },
+    {
+      "name": "skills",
+      "file": "commands/skills.md",
+      "description": "Browse and discover available skills by agent and category"
+    }
+  ],
+  "skills": [
+    {
+      "id": "html-css-design",
+      "agent": "frontend-dev-agent",
+      "file": "skills/frontend/html-css-design/SKILL.md"
+    },
+    {
+      "id": "javascript-ecosystem",
+      "agent": "frontend-dev-agent",
+      "file": "skills/frontend/javascript-ecosystem/SKILL.md"
+    },
+    {
+      "id": "react-modern-frontend",
+      "agent": "frontend-dev-agent",
+      "file": "skills/frontend/react-modern-frontend/SKILL.md"
+    },
+    {
+      "id": "frontend-frameworks",
+      "agent": "frontend-dev-agent",
+      "file": "skills/frontend/frontend-frameworks/SKILL.md"
+    },
+    {
+      "id": "rest-api-design",
+      "agent": "backend-dev-agent",
+      "file": "skills/backend/rest-api-design/SKILL.md"
+    },
+    {
+      "id": "nodejs-runtime",
+      "agent": "backend-dev-agent",
+      "file": "skills/backend/nodejs-runtime/SKILL.md"
+    },
+    {
+      "id": "backend-frameworks",
+      "agent": "backend-dev-agent",
+      "file": "skills/backend/backend-frameworks/SKILL.md"
+    },
+    {
+      "id": "graphql-advanced-apis",
+      "agent": "backend-dev-agent",
+      "file": "skills/backend/graphql-advanced-apis/SKILL.md"
+    },
+    {
+      "id": "typescript-advanced",
+      "agent": "fullstack-web-agent",
+      "file": "skills/fullstack/typescript-advanced/SKILL.md"
+    },
+    {
+      "id": "nextjs-modern-web",
+      "agent": "fullstack-web-agent",
+      "file": "skills/fullstack/nextjs-modern-web/SKILL.md"
+    },
+    {
+      "id": "fullstack-patterns",
+      "agent": "fullstack-web-agent",
+      "file": "skills/fullstack/fullstack-patterns/SKILL.md"
+    },
+    {
+      "id": "react-native-mobile",
+      "agent": "mobile-crossplatform-agent",
+      "file": "skills/mobile/react-native-mobile/SKILL.md"
+    },
+    {
+      "id": "flutter-development",
+      "agent": "mobile-crossplatform-agent",
+      "file": "skills/mobile/flutter-development/SKILL.md"
+    },
+    {
+      "id": "native-ios-swift",
+      "agent": "mobile-crossplatform-agent",
+      "file": "skills/mobile/native-ios-swift/SKILL.md"
+    },
+    {
+      "id": "sql-databases",
+      "agent": "database-data-agent",
+      "file": "skills/database/sql-databases/SKILL.md"
+    },
+    {
+      "id": "nosql-databases",
+      "agent": "database-data-agent",
+      "file": "skills/database/nosql-databases/SKILL.md"
+    },
+    {
+      "id": "database-design",
+      "agent": "database-data-agent",
+      "file": "skills/database/database-design/SKILL.md"
+    },
+    {
+      "id": "docker-containers",
+      "agent": "cloud-devops-agent",
+      "file": "skills/cloud-devops/docker-containers/SKILL.md"
+    },
+    {
+      "id": "kubernetes-orchestration",
+      "agent": "cloud-devops-agent",
+      "file": "skills/cloud-devops/kubernetes-orchestration/SKILL.md"
+    },
+    {
+      "id": "aws-cloud",
+      "agent": "cloud-devops-agent",
+      "file": "skills/cloud-devops/aws-cloud/SKILL.md"
+    },
+    {
+      "id": "terraform-iac",
+      "agent": "cloud-devops-agent",
+      "file": "skills/cloud-devops/terraform-iac/SKILL.md"
+    },
+    {
+      "id": "linux-sysadmin",
+      "agent": "cloud-devops-agent",
+      "file": "skills/cloud-devops/linux-sysadmin/SKILL.md"
+    },
+    {
+      "id": "machine-learning-fundamentals",
+      "agent": "ai-ml-data-agent",
+      "file": "skills/ai-ml/machine-learning-fundamentals/SKILL.md"
+    },
+    {
+      "id": "deep-learning-neural-networks",
+      "agent": "ai-ml-data-agent",
+      "file": "skills/ai-ml/deep-learning-neural-networks/SKILL.md"
+    },
+    {
+      "id": "data-science-analytics",
+      "agent": "ai-ml-data-agent",
+      "file": "skills/ai-ml/data-science-analytics/SKILL.md"
+    },
+    {
+      "id": "mlops-deployment",
+      "agent": "ai-ml-data-agent",
+      "file": "skills/ai-ml/mlops-deployment/SKILL.md"
+    },
+    {
+      "id": "system-design",
+      "agent": "specialized-architect-agent",
+      "file": "skills/specialized/system-design/SKILL.md"
+    },
+    {
+      "id": "software-architecture",
+      "agent": "specialized-architect-agent",
+      "file": "skills/specialized/software-architecture/SKILL.md"
+    },
+    {
+      "id": "testing-qa",
+      "agent": "specialized-architect-agent",
+      "file": "skills/specialized/testing-qa/SKILL.md"
+    }
+  ],
+  "hooks": {
+    "onLoad": "hooks/on-load.js",
+    "onSkillInvoke": "hooks/on-skill-invoke.js"
+  },
+  "requiredVersion": "1.0.0"
+}

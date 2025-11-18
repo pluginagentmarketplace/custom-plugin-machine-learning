@@ -1,0 +1,17 @@
+{
+  "onLoad": {
+    "enabled": true,
+    "script": "hooks/init.js",
+    "description": "Initialize plugin on load"
+  },
+  "onSkillInvoke": {
+    "enabled": true,
+    "script": "hooks/skill-invoke.js",
+    "description": "Track skill invocations and provide recommendations"
+  },
+  "onCommandExecute": {
+    "enabled": true,
+    "script": "hooks/command-execute.js",
+    "description": "Log command execution for analytics"
+  }
+}
