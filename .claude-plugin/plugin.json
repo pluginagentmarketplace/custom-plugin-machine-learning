@@ -1,17 +1,38 @@
 {
   "name": "Developer Roadmap ML Plugin",
-  "version": "1.0.0",
-  "description": "Comprehensive learning and development plugin with AI/ML focus. Contains 8 specialized agents covering frontend, backend, full-stack, mobile, databases, cloud/DevOps, AI/ML, and specialized roles with 50+ interactive skills.",
+  "version": "1.1.0",
+  "description": "Ultra-comprehensive developer learning platform with 64 skills, 8 specialized agents, and integration with 65+ developer roadmaps. Master frontend, backend, mobile, database, cloud/DevOps, AI/ML, and specialized roles.",
   "author": "Plugin Agent Marketplace",
   "repository": "https://github.com/pluginagentmarketplace/custom-plugin-machine-learning",
   "keywords": [
     "learning",
     "development",
     "roadmap",
+    "developer-training",
     "ai",
     "machine-learning",
+    "web-development",
+    "cloud-computing",
+    "devops",
+    "mobile-development",
+    "frontend",
+    "backend",
+    "fullstack",
+    "typescript",
+    "javascript",
+    "python",
+    "java",
+    "golang",
+    "rust",
+    "kubernetes",
+    "docker",
+    "aws",
+    "system-design",
+    "architecture",
+    "microservices",
     "agent-skills",
-    "developer-training"
+    "skill-development",
+    "career-growth"
   ],
   "agents": [
     {
@@ -83,6 +104,26 @@
       "name": "skills",
       "file": "commands/skills.md",
       "description": "Browse and discover available skills by agent and category"
+    },
+    {
+      "name": "trending",
+      "file": "commands/trending.md",
+      "description": "Discover trending technologies and skills to learn next"
+    },
+    {
+      "name": "projects",
+      "file": "commands/projects.md",
+      "description": "Browse real-world projects organized by difficulty and topic"
+    },
+    {
+      "name": "compare",
+      "file": "commands/compare.md",
+      "description": "Compare different technologies, frameworks, and approaches"
+    },
+    {
+      "name": "career-path",
+      "file": "commands/career-path.md",
+      "description": "Get personalized career path recommendations"
     }
   ],
   "skills": [
@@ -230,6 +271,181 @@
       "id": "testing-qa",
       "agent": "specialized-architect-agent",
       "file": "skills/specialized/testing-qa/SKILL.md"
+    },
+    {
+      "id": "python-comprehensive",
+      "agent": "backend-dev-agent",
+      "file": "skills/backend/python-comprehensive/SKILL.md"
+    },
+    {
+      "id": "java-ecosystem",
+      "agent": "backend-dev-agent",
+      "file": "skills/backend/java-ecosystem/SKILL.md"
+    },
+    {
+      "id": "go-programming",
+      "agent": "backend-dev-agent",
+      "file": "skills/backend/go-programming/SKILL.md"
+    },
+    {
+      "id": "rust-programming",
+      "agent": "backend-dev-agent",
+      "file": "skills/backend/rust-programming/SKILL.md"
+    },
+    {
+      "id": "cpp-programming",
+      "agent": "specialized-architect-agent",
+      "file": "skills/backend/cpp-programming/SKILL.md"
+    },
+    {
+      "id": "express-nodejs",
+      "agent": "backend-dev-agent",
+      "file": "skills/backend/express-nodejs/SKILL.md"
+    },
+    {
+      "id": "django-framework",
+      "agent": "backend-dev-agent",
+      "file": "skills/backend/django-framework/SKILL.md"
+    },
+    {
+      "id": "fastapi-modern",
+      "agent": "backend-dev-agent",
+      "file": "skills/backend/fastapi-modern/SKILL.md"
+    },
+    {
+      "id": "spring-boot-java",
+      "agent": "backend-dev-agent",
+      "file": "skills/backend/spring-boot-java/SKILL.md"
+    },
+    {
+      "id": "laravel-php",
+      "agent": "backend-dev-agent",
+      "file": "skills/backend/laravel-php/SKILL.md"
+    },
+    {
+      "id": "postgresql-advanced",
+      "agent": "database-data-agent",
+      "file": "skills/database/postgresql-advanced/SKILL.md"
+    },
+    {
+      "id": "mongodb-advanced",
+      "agent": "database-data-agent",
+      "file": "skills/database/mongodb-advanced/SKILL.md"
+    },
+    {
+      "id": "redis-advanced",
+      "agent": "database-data-agent",
+      "file": "skills/database/redis-advanced/SKILL.md"
+    },
+    {
+      "id": "rest-best-practices",
+      "agent": "backend-dev-agent",
+      "file": "skills/backend/rest-best-practices/SKILL.md"
+    },
+    {
+      "id": "grpc-protobuf",
+      "agent": "backend-dev-agent",
+      "file": "skills/backend/grpc-protobuf/SKILL.md"
+    },
+    {
+      "id": "websocket-realtime",
+      "agent": "fullstack-web-agent",
+      "file": "skills/fullstack/websocket-realtime/SKILL.md"
+    },
+    {
+      "id": "web-performance",
+      "agent": "frontend-dev-agent",
+      "file": "skills/frontend/web-performance/SKILL.md"
+    },
+    {
+      "id": "web-accessibility",
+      "agent": "frontend-dev-agent",
+      "file": "skills/frontend/web-accessibility/SKILL.md"
+    },
+    {
+      "id": "progressive-web-apps",
+      "agent": "frontend-dev-agent",
+      "file": "skills/frontend/progressive-web-apps/SKILL.md"
+    },
+    {
+      "id": "svelte-framework",
+      "agent": "frontend-dev-agent",
+      "file": "skills/frontend/svelte-framework/SKILL.md"
+    },
+    {
+      "id": "ci-cd-pipelines",
+      "agent": "cloud-devops-agent",
+      "file": "skills/cloud-devops/ci-cd-pipelines/SKILL.md"
+    },
+    {
+      "id": "monitoring-observability",
+      "agent": "cloud-devops-agent",
+      "file": "skills/cloud-devops/monitoring-observability/SKILL.md"
+    },
+    {
+      "id": "security-devops",
+      "agent": "cloud-devops-agent",
+      "file": "skills/cloud-devops/security-devops/SKILL.md"
+    },
+    {
+      "id": "gcp-cloud",
+      "agent": "cloud-devops-agent",
+      "file": "skills/cloud-devops/gcp-cloud/SKILL.md"
+    },
+    {
+      "id": "azure-cloud",
+      "agent": "cloud-devops-agent",
+      "file": "skills/cloud-devops/azure-cloud/SKILL.md"
+    },
+    {
+      "id": "nlp-transformers",
+      "agent": "ai-ml-data-agent",
+      "file": "skills/ai-ml/nlp-transformers/SKILL.md"
+    },
+    {
+      "id": "computer-vision",
+      "agent": "ai-ml-data-agent",
+      "file": "skills/ai-ml/computer-vision/SKILL.md"
+    },
+    {
+      "id": "reinforcement-learning",
+      "agent": "ai-ml-data-agent",
+      "file": "skills/ai-ml/reinforcement-learning/SKILL.md"
+    },
+    {
+      "id": "time-series-forecasting",
+      "agent": "ai-ml-data-agent",
+      "file": "skills/ai-ml/time-series-forecasting/SKILL.md"
+    },
+    {
+      "id": "system-architecture",
+      "agent": "specialized-architect-agent",
+      "file": "skills/specialized/system-architecture/SKILL.md"
+    },
+    {
+      "id": "game-development",
+      "agent": "specialized-architect-agent",
+      "file": "skills/specialized/game-development/SKILL.md"
+    },
+    {
+      "id": "blockchain-web3",
+      "agent": "specialized-architect-agent",
+      "file": "skills/specialized/blockchain-web3/SKILL.md"
+    },
+    {
+      "id": "cybersecurity-fundamentals",
+      "agent": "specialized-architect-agent",
+      "file": "skills/specialized/cybersecurity-fundamentals/SKILL.md"
+    },
+    {
+      "id": "devrel-developer-advocacy",
+      "agent": "specialized-architect-agent",
+      "file": "skills/specialized/devrel-developer-advocacy/SKILL.md"
+    },
+    {
+      "id": "technical-writing",
+      "agent": "specialized-architect-agent",
+      "file": "skills/specialized/technical-writing/SKILL.md"
     }
   ],
   "hooks": {
