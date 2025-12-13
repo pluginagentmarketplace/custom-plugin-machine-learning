@@ -1,5 +1,8 @@
 # 🚀 Custom Plugin Machine Learning - Developer Roadmap
 
+[![Run in Smithery](https://smithery.ai/badge/skills/pluginagentmarketplace)](https://smithery.ai/skills?ns=pluginagentmarketplace&utm_source=github&utm_medium=badge)
+
+
 **The Ultimate Developer Learning Platform with AI-Powered Agents & 64 Expert Skills**
 
 Ultra-modern, comprehensive Claude Code plugin integrating **65+ developer roadmaps** with personalized learning paths, 8 intelligent agents, and **200+ hours** of expert-curated content.
