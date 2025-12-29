@@ -1,1 +1,0 @@
-# game-development Guide

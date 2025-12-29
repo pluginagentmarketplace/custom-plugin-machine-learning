@@ -1,1 +1,0 @@
-# rest-api-design Guide

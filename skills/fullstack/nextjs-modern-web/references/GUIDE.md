@@ -1,1 +1,0 @@
-# nextjs-modern-web Guide

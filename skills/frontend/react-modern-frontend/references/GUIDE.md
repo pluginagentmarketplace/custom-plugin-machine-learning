@@ -1,1 +1,0 @@
-# react-modern-frontend Guide

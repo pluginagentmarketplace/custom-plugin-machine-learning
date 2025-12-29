@@ -1,1 +1,0 @@
-# go-programming Guide

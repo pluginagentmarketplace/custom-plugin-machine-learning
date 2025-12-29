@@ -1,1 +1,0 @@
-# nosql-databases Guide

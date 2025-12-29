@@ -1,1 +1,0 @@
-# devrel-developer-advocacy Guide

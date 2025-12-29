@@ -1,1 +1,0 @@
-# graphql-advanced-apis Guide
