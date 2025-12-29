@@ -1,0 +1,15 @@
+{
+  "name": "pluginagentmarketplace-machine-learning",
+  "owner": {
+    "name": "Plugin Agent Marketplace",
+    "email": "pluginagentmarketplace@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "machine-learning-assistant",
+      "source": "./",
+      "description": "Claude Code plugin for machine learning development",
+      "version": "1.0.0"
+    }
+  ]
+}

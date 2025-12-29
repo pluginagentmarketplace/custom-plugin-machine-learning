@@ -1,10 +1,15 @@
+---
+name: roadmap
+description: /roadmap
+allowed-tools: Read
+---
+
 # /roadmap
 
 Find and analyze specific developer roadmaps from the Developer Roadmap project.
 
 ## Description
 
-The `/roadmap` command connects you to roadmaps from the famous developer-roadmap project (https://roadmap.sh). Search and explore 60+ detailed roadmaps for various developer roles.
 
 ## Usage
 

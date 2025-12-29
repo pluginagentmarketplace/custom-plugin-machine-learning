@@ -1,5 +1,5 @@
 {
-  "name": "Developer Roadmap ML Plugin",
+  "name": "machine-learning-assistant",
   "version": "1.3.0",
   "description": "Ultra-comprehensive developer learning platform with 64 skills, 8 specialized agents, and integration with 65+ developer roadmaps. Master frontend, backend, mobile, database, cloud/DevOps, AI/ML, and specialized roles.",
   "author": "Plugin Agent Marketplace",
@@ -452,5 +452,6 @@
     "onLoad": "hooks/on-load.js",
     "onSkillInvoke": "hooks/on-skill-invoke.js"
   },
-  "requiredVersion": "1.0.0"
+  "requiredVersion": "1.0.0",
+  "license": "SEE LICENSE IN LICENSE"
 }

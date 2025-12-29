@@ -1,3 +1,9 @@
+---
+name: skills
+description: /skills
+allowed-tools: Read
+---
+
 # /skills
 
 Browse and discover available skills organized by agent and category.

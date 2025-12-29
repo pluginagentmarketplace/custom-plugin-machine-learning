@@ -1,3 +1,9 @@
+---
+name: learn
+description: /learn
+allowed-tools: Read
+---
+
 # /learn
 
 **Start a personalized, AI-powered learning journey through the Developer Roadmap ML Plugin.**

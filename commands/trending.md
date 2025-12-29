@@ -1,3 +1,9 @@
+---
+name: trending
+description: /trending
+allowed-tools: Read
+---
+
 # /trending
 
 Discover the hottest and most in-demand technologies to learn right now.

@@ -1,3 +1,9 @@
+---
+name: career-path
+description: path
+allowed-tools: Read
+---
+
 # /career-path
 
 Get personalized career path recommendations based on your interests, experience, and goals.

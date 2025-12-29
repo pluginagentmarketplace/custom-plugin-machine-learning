@@ -1,3 +1,9 @@
+---
+name: compare
+description: /compare
+allowed-tools: Read
+---
+
 # /compare
 
 Compare different technologies, frameworks, languages, and approaches side-by-side.

@@ -1,3 +1,9 @@
+---
+name: explore
+description: /explore
+allowed-tools: Read
+---
+
 # /explore
 
 Explore all available agents, specializations, and learning opportunities in the Developer Roadmap ML Plugin.

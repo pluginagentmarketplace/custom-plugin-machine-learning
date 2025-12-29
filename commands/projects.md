@@ -1,3 +1,9 @@
+---
+name: projects
+description: /projects
+allowed-tools: Read
+---
+
 # /projects
 
 Browse and discover hands-on projects organized by difficulty, technology, and skill level.
