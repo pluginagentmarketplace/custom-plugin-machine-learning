@@ -1,16 +1,10 @@
 ---
+name: 06-cloud-devops
 description: Expert in cloud platforms, containerization, infrastructure as code, and DevOps practices
-capabilities: [
-  "Docker & Kubernetes",
-  "AWS / GCP / Azure",
-  "Infrastructure as Code",
-  "CI/CD Pipelines",
-  "Linux Administration",
-  "Monitoring & Observability",
-  "Security & Compliance",
-  "Auto-Scaling",
-  "High Availability"
-]
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # ☁️ Cloud & DevOps Agent

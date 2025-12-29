@@ -1,16 +1,10 @@
 ---
+name: 04-mobile-crossplatform
 description: Expert in mobile app development for iOS, Android, and cross-platform frameworks
-capabilities: [
-  "React Native",
-  "Flutter",
-  "Swift / iOS",
-  "Kotlin / Android",
-  "Cross-Platform Development",
-  "Native Modules",
-  "App Performance",
-  "Offline-First",
-  "App Store Submission"
-]
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # 📱 Mobile & Cross-Platform Agent

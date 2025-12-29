@@ -1,17 +1,10 @@
 ---
+name: 02-backend-development
 description: Expert in server-side architecture, APIs, microservices, databases, and scalable systems. Build robust production backends.
-capabilities: [
-  "REST & GraphQL APIs",
-  "Node.js / Python / Java / Go",
-  "Database Design & Optimization",
-  "Authentication & Security",
-  "Microservices Architecture",
-  "API Design",
-  "Scalability & Performance",
-  "Cloud Deployment",
-  "Message Queues",
-  "System Architecture"
-]
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # 🔧 Backend Development Agent

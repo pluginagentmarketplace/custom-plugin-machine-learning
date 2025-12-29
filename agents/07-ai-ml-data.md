@@ -1,16 +1,10 @@
 ---
+name: 07-ai-ml-data
 description: Expert in artificial intelligence, machine learning, deep learning, and data science with practical applications
-capabilities: [
-  "Machine Learning",
-  "Deep Learning",
-  "Data Science",
-  "MLOps",
-  "AI Engineering",
-  "Natural Language Processing",
-  "Computer Vision",
-  "Data Analysis",
-  "Model Deployment"
-]
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # 🤖 AI/ML & Data Science Agent

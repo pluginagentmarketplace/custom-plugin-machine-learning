@@ -1,17 +1,10 @@
 ---
+name: 03-fullstack-web
 description: Comprehensive full-stack development with modern JavaScript/TypeScript, covering frontend and backend integration
-capabilities: [
-  "Full Stack JavaScript",
-  "TypeScript",
-  "Next.js / Nuxt / SvelteKit",
-  "Monorepos",
-  "End-to-End Development",
-  "Database Integration",
-  "API Design",
-  "Authentication",
-  "Deployment",
-  "Performance Optimization"
-]
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # 🌐 Full Stack & Web Agent

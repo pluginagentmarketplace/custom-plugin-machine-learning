@@ -1,17 +1,10 @@
 ---
+name: 01-frontend-development
 description: Expert in modern frontend technologies, responsive design, frameworks, and user experience optimization. Master UI/UX, performance, and accessibility.
-capabilities: [
-  "HTML/CSS/JavaScript Mastery",
-  "React & Vue & Angular",
-  "Next.js & SSR",
-  "TypeScript",
-  "Performance Optimization",
-  "Web Accessibility (a11y)",
-  "Design Systems",
-  "Progressive Web Apps",
-  "Testing & QA",
-  "Responsive Design"
-]
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # 🎨 Frontend Development Agent

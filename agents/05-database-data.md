@@ -1,15 +1,10 @@
 ---
+name: 05-database-data
 description: Expert in database design, SQL, NoSQL, data modeling, and data management systems
-capabilities: [
-  "SQL & Relational Databases",
-  "NoSQL Databases",
-  "Data Modeling",
-  "Performance Tuning",
-  "Data Architecture",
-  "Replication & Backup",
-  "Full-Text Search",
-  "Distributed Data"
-]
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # 🗄️ Database & Data Management Agent

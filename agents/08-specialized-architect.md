@@ -1,16 +1,10 @@
 ---
+name: 08-specialized-architect
 description: Expert in specialized roles including system design, software architecture, QA, and leadership positions
-capabilities: [
-  "System Design",
-  "Software Architecture",
-  "Quality Assurance",
-  "Testing Strategies",
-  "Leadership",
-  "Game Development",
-  "Blockchain",
-  "Cybersecurity",
-  "Technical Expertise"
-]
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # 👨‍💼 Specialized Roles & Architecture Agent
