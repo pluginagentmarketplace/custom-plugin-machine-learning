@@ -1,259 +1,252 @@
 <div align="center">
 
 <!-- Animated Typing Banner -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=2E9EF7&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Machine+Learning+Assistant;8+Agents+%7C+0+Skills;Claude+Code+Plugin" alt="Machine Learning Assistant" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=2E9EF7&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Machine+Learning+Assistant;7+Agents+%7C+7+Skills;Production-Grade+Claude+Plugin" alt="Machine Learning Assistant" />
 
 <br/>
 
 <!-- Badge Row 1: Status Badges -->
-[![Version](https://img.shields.io/badge/Version-1.3.0-blue?style=for-the-badge)](https://github.com/pluginagentmarketplace/custom-plugin-machine-learning/releases)
+[![Version](https://img.shields.io/badge/Version-1.4.0-blue?style=for-the-badge)](https://github.com/pluginagentmarketplace/custom-plugin-machine-learning/releases)
 [![License](https://img.shields.io/badge/License-Custom-yellow?style=for-the-badge)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-Production-brightgreen?style=for-the-badge)](#)
-[![SASMP](https://img.shields.io/badge/SASMP-v1.3.0-blueviolet?style=for-the-badge)](#)
+[![SASMP](https://img.shields.io/badge/SASMP-v1.4.0-blueviolet?style=for-the-badge)](#)
 
 <!-- Badge Row 2: Content Badges -->
-[![Agents](https://img.shields.io/badge/Agents-8-orange?style=flat-square&logo=robot)](#-agents)
-[![Skills](https://img.shields.io/badge/Skills-0-purple?style=flat-square&logo=lightning)](#-skills)
+[![Agents](https://img.shields.io/badge/Agents-7-orange?style=flat-square&logo=robot)](#-agents)
+[![Skills](https://img.shields.io/badge/Skills-7-purple?style=flat-square&logo=lightning)](#-skills)
 [![Commands](https://img.shields.io/badge/Commands-8-green?style=flat-square&logo=terminal)](#-commands)
 
 <br/>
 
 <!-- Quick CTA Row -->
-[📦 **Install Now**](#-quick-start) · [🤖 **Explore Agents**](#-agents) · [📖 **Documentation**](#-documentation) · [⭐ **Star this repo**](https://github.com/pluginagentmarketplace/custom-plugin-machine-learning)
+[**Install Now**](#-quick-start) | [**Explore Agents**](#-agents) | [**Browse Skills**](#-skills) | [**Documentation**](#-documentation)
 
 ---
 
 ### What is this?
 
-> **Machine Learning Assistant** is a Claude Code plugin with **8 agents** and **0 skills** for machine learning development.
+> **Machine Learning Assistant** is a production-grade Claude Code plugin with **7 specialized agents** and **7 bonded skills** for complete ML development lifecycle.
 
 </div>
 
 ---
 
-## 📑 Table of Contents
-
-<details>
-<summary>Click to expand</summary>
+## Table of Contents
 
 - [Quick Start](#-quick-start)
-- [Features](#-features)
+- [Architecture](#-architecture)
 - [Agents](#-agents)
 - [Skills](#-skills)
 - [Commands](#-commands)
-- [Documentation](#-documentation)
+- [Troubleshooting](#-troubleshooting)
 - [Contributing](#-contributing)
-- [License](#-license)
-
-</details>
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
 - Claude Code CLI v2.0.27+
 - Active Claude subscription
 
-### Installation (Choose One)
-
-<details open>
-<summary><strong>Option 1: From Marketplace (Recommended)</strong></summary>
+### Installation
 
 ```bash
-# Step 1️⃣ Add the marketplace
+# From Marketplace
 /plugin add marketplace pluginagentmarketplace/custom-plugin-machine-learning
-
-# Step 2️⃣ Install the plugin
 /plugin install machine-learning-assistant@pluginagentmarketplace-machine-learning
 
-# Step 3️⃣ Restart Claude Code
-# Close and reopen your terminal/IDE
-```
-
-</details>
-
-<details>
-<summary><strong>Option 2: Local Installation</strong></summary>
-
-```bash
-# Clone the repository
+# Or Local Installation
 git clone https://github.com/pluginagentmarketplace/custom-plugin-machine-learning.git
 cd custom-plugin-machine-learning
-
-# Load locally
 /plugin load .
-
-# Restart Claude Code
 ```
 
-</details>
-
-### ✅ Verify Installation
-
-After restart, you should see these agents:
+### Verify Installation
 
 ```
-machine-learning-assistant:06-cloud-devops
-machine-learning-assistant:05-database-data
-machine-learning-assistant:01-frontend-development
-machine-learning-assistant:07-ai-ml-data
-machine-learning-assistant:08-specialized-architect
-... and 3 more
+machine-learning-assistant:01-ml-fundamentals
+machine-learning-assistant:02-supervised-learning
+machine-learning-assistant:03-unsupervised-learning
+machine-learning-assistant:04-deep-learning
+machine-learning-assistant:05-nlp
+machine-learning-assistant:06-computer-vision
+machine-learning-assistant:07-model-deployment
 ```
 
 ---
 
-## ✨ Features
+## Architecture
 
-| Feature | Description |
-|---------|-------------|
-| 🤖 **8 Agents** | Specialized AI agents for machine learning tasks |
-| 🛠️ **0 Skills** | Reusable capabilities with Golden Format |
-| ⌨️ **8 Commands** | Quick slash commands |
-| 🔄 **SASMP v1.3.0** | Full protocol compliance |
-
----
-
-## 🤖 Agents
-
-### 8 Specialized Agents
-
-| # | Agent | Purpose |
-|---|-------|---------|
-| 1 | **06-cloud-devops** | Expert in cloud platforms, containerization, infrastructure  |
-| 2 | **05-database-data** | Expert in database design, SQL, NoSQL, data modeling, and da |
-| 3 | **01-frontend-development** | Expert in modern frontend technologies, responsive design, f |
-| 4 | **07-ai-ml-data** | Expert in artificial intelligence, machine learning, deep le |
-| 5 | **08-specialized-architect** | Expert in specialized roles including system design, softwar |
-| 6 | **03-fullstack-web** | Comprehensive full-stack development with modern JavaScript/ |
-| 7 | **02-backend-development** | Expert in server-side architecture, APIs, microservices, dat |
-| 8 | **04-mobile-crossplatform** | Expert in mobile app development for iOS, Android, and cross |
-
----
-
-## 🛠️ Skills
-
-### Available Skills
-
-| Skill | Description | Invoke |
-|-------|-------------|--------|
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                    ML ASSISTANT ARCHITECTURE                     │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                  │
+│  ┌──────────────┐   ┌──────────────┐   ┌──────────────┐        │
+│  │ 01-ML        │   │ 02-Supervised│   │ 03-Unsupervised│       │
+│  │ Fundamentals │──▶│ Learning     │──▶│ Learning     │        │
+│  └──────┬───────┘   └──────────────┘   └──────────────┘        │
+│         │                                                        │
+│         ▼                                                        │
+│  ┌──────────────┐   ┌──────────────┐   ┌──────────────┐        │
+│  │ 04-Deep      │──▶│ 05-NLP       │   │ 06-Computer  │        │
+│  │ Learning     │   │              │   │ Vision       │        │
+│  └──────┬───────┘   └──────────────┘   └──────────────┘        │
+│         │                                                        │
+│         ▼                                                        │
+│  ┌──────────────┐                                               │
+│  │ 07-Model     │  ◀── All agents feed into deployment         │
+│  │ Deployment   │                                               │
+│  └──────────────┘                                               │
+│                                                                  │
+└─────────────────────────────────────────────────────────────────┘
+```
 
 ---
 
-## ⌨️ Commands
+## Agents
+
+### 7 Specialized ML Agents
+
+| # | Agent | Description | Primary Skill |
+|---|-------|-------------|---------------|
+| 1 | **01-ml-fundamentals** | ML foundations: algorithms, preprocessing, feature engineering, evaluation | `ml-fundamentals` |
+| 2 | **02-supervised-learning** | Classification, regression, ensemble methods, hyperparameter tuning | `supervised-learning` |
+| 3 | **03-unsupervised-learning** | Clustering, dimensionality reduction, anomaly detection | `clustering` |
+| 4 | **04-deep-learning** | Neural networks, PyTorch/TensorFlow, training strategies | `deep-learning` |
+| 5 | **05-nlp** | Text processing, transformers, LLMs, embeddings | `nlp-basics` |
+| 6 | **06-computer-vision** | Image classification, object detection, segmentation | `computer-vision` |
+| 7 | **07-model-deployment** | APIs, Docker, monitoring, MLOps, A/B testing | `ml-deployment` |
+
+### Agent Features
+
+Each agent includes:
+- **Role & Responsibility Boundaries** - Clear scope definition
+- **Input/Output Schemas** - Type-safe interfaces
+- **Error Handling** - Exponential backoff retry logic
+- **Token Optimization** - Context management
+- **Troubleshooting Guide** - Common issues & solutions
+- **Integration Points** - Cross-references to related agents/skills
+
+---
+
+## Skills
+
+### 7 Production-Ready Skills
+
+| Skill | Description | Bonded Agent |
+|-------|-------------|--------------|
+| `ml-fundamentals` | Preprocessing, pipelines, cross-validation | 01-ml-fundamentals |
+| `supervised-learning` | Classifiers, regressors, tuning | 02-supervised-learning |
+| `clustering` | K-Means, DBSCAN, PCA, anomaly detection | 03-unsupervised-learning |
+| `deep-learning` | PyTorch training, architectures, optimization | 04-deep-learning |
+| `nlp-basics` | Text processing, embeddings, transformers | 05-nlp |
+| `computer-vision` | Image augmentation, transfer learning, detection | 06-computer-vision |
+| `ml-deployment` | FastAPI, Docker, monitoring, versioning | 07-model-deployment |
+
+### Skill Features
+
+Each skill includes:
+- **Parameter Validation** - Required/optional with types
+- **Retry Logic** - Exponential backoff
+- **Observability** - Logging and metrics
+- **Quick Start** - Working code examples
+- **Best Practices** - DO/DON'T guidelines
+- **Unit Test Templates** - pytest examples
+- **Troubleshooting** - Problem/cause/solution tables
+
+---
+
+## Commands
 
 | Command | Description |
 |---------|-------------|
-| `/explore` | /explore |
-| `/learn` | /learn |
-| `/compare` | /compare |
-| `/projects` | /projects |
-| `/trending` | /trending |
-| `/roadmap` | /roadmap |
-| `/skills` | /skills |
-| `/career-path` | path |
+| `/learn` | Start an ML learning path |
+| `/explore` | Explore available agents |
+| `/roadmap` | ML learning roadmaps |
+| `/skills` | Browse available skills |
+| `/trending` | Trending ML technologies |
+| `/projects` | ML project ideas |
+| `/compare` | Compare ML algorithms |
+| `/career-path` | ML career recommendations |
 
 ---
 
-## 📚 Documentation
+## Troubleshooting
 
-| Document | Description |
-|----------|-------------|
-| [CHANGELOG.md](CHANGELOG.md) | Version history |
-| [CONTRIBUTING.md](CONTRIBUTING.md) | How to contribute |
-| [LICENSE](LICENSE) | License information |
+### Common Issues
 
----
+| Issue | Solution |
+|-------|----------|
+| Agent not found | Restart Claude Code after installation |
+| Skill not loading | Check SKILL.md frontmatter syntax |
+| Command error | Verify command file exists in `/commands` |
 
-## 📁 Project Structure
+### Debug Checklist
 
-<details>
-<summary>Click to expand</summary>
-
-```
-custom-plugin-machine-learning/
-├── 📁 .claude-plugin/
-│   ├── plugin.json
-│   └── marketplace.json
-├── 📁 agents/              # 8 agents
-├── 📁 skills/              # 0 skills (Golden Format)
-├── 📁 commands/            # 8 commands
-├── 📁 hooks/
-├── 📄 README.md
-├── 📄 CHANGELOG.md
-└── 📄 LICENSE
-```
-
-</details>
+1. Verify plugin.json paths are correct
+2. Check agent/skill YAML frontmatter
+3. Ensure all referenced files exist
+4. Validate JSON syntax in plugin.json
 
 ---
 
-## 📅 Metadata
+## Integrity Matrix
+
+| Agent | Primary Skill | Status |
+|-------|--------------|--------|
+| 01-ml-fundamentals | ml-fundamentals | Bonded |
+| 02-supervised-learning | supervised-learning | Bonded |
+| 03-unsupervised-learning | clustering | Bonded |
+| 04-deep-learning | deep-learning | Bonded |
+| 05-nlp | nlp-basics | Bonded |
+| 06-computer-vision | computer-vision | Bonded |
+| 07-model-deployment | ml-deployment | Bonded |
+
+**Validation:**
+- Zero broken links
+- Zero orphan skills
+- Zero ghost triggers
+- Zero circular dependencies
+
+---
+
+## Metadata
 
 | Field | Value |
 |-------|-------|
-| **Version** | 1.3.0 |
-| **Last Updated** | 2025-12-29 |
+| **Version** | 1.4.0 |
+| **Last Updated** | 2025-01-01 |
 | **Status** | Production Ready |
-| **SASMP** | v1.3.0 |
-| **Agents** | 8 |
-| **Skills** | 0 |
+| **SASMP** | v1.4.0 |
+| **Agents** | 7 |
+| **Skills** | 7 |
 | **Commands** | 8 |
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome! Please read our [Contributing Guide](CONTRIBUTING.md).
+## Contributing
 
 1. Fork the repository
 2. Create your feature branch
-3. Follow the Golden Format for new skills
+3. Follow the production-grade format for agents/skills
 4. Submit a pull request
 
 ---
 
-## ⚠️ Security
+## License
 
-> **Important:** This repository contains third-party code and dependencies.
->
-> - ✅ Always review code before using in production
-> - ✅ Check dependencies for known vulnerabilities
-> - ✅ Follow security best practices
-> - ✅ Report security issues privately via [Issues](../../issues)
+Copyright 2025 **Dr. Umit Kacar** & **Muhsin Elcicek**
 
----
-
-## 📝 License
-
-Copyright © 2025 **Dr. Umit Kacar** & **Muhsin Elcicek**
-
-Custom License - See [LICENSE](LICENSE) for details.
-
----
-
-## 👥 Contributors
-
-<table>
-<tr>
-<td align="center">
-<strong>Dr. Umit Kacar</strong><br/>
-Senior AI Researcher & Engineer
-</td>
-<td align="center">
-<strong>Muhsin Elcicek</strong><br/>
-Senior Software Architect
-</td>
-</tr>
-</table>
+See [LICENSE](LICENSE) for details.
 
 ---
 
 <div align="center">
 
-**Made with ❤️ for the Claude Code Community**
+**Made with precision for the Claude Code Community**
 
 [![GitHub](https://img.shields.io/badge/GitHub-pluginagentmarketplace-black?style=for-the-badge&logo=github)](https://github.com/pluginagentmarketplace)
 
