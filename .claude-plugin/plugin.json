@@ -1,38 +1,30 @@
 {
   "name": "machine-learning-assistant",
-  "version": "1.3.0",
-  "description": "Machine learning plugin with agents for ML fundamentals, deep learning, and model deployment",
+  "version": "1.4.0",
+  "description": "Production-grade machine learning plugin with 7 specialized agents and 7 skills covering ML fundamentals, supervised/unsupervised learning, deep learning, NLP, computer vision, and model deployment",
   "author": "Plugin Agent Marketplace",
   "repository": "https://github.com/pluginagentmarketplace/custom-plugin-machine-learning",
   "keywords": [
-    "learning",
-    "development",
-    "roadmap",
-    "developer-training",
-    "ai",
     "machine-learning",
-    "web-development",
-    "cloud-computing",
-    "devops",
-    "mobile-development",
-    "frontend",
-    "backend",
-    "fullstack",
-    "typescript",
-    "javascript",
-    "python",
-    "java",
-    "golang",
-    "rust",
-    "kubernetes",
-    "docker",
-    "aws",
-    "system-design",
-    "architecture",
-    "microservices",
-    "agent-skills",
-    "skill-development",
-    "career-growth"
+    "deep-learning",
+    "nlp",
+    "computer-vision",
+    "mlops",
+    "sklearn",
+    "pytorch",
+    "tensorflow",
+    "transformers",
+    "huggingface",
+    "model-deployment",
+    "supervised-learning",
+    "unsupervised-learning",
+    "clustering",
+    "classification",
+    "regression",
+    "neural-networks",
+    "transfer-learning",
+    "data-science",
+    "ai"
   ],
   "agents": [
     "./agents/01-ml-fundamentals.md",
@@ -57,42 +49,42 @@
     {
       "name": "roadmap",
       "file": "commands/roadmap.md",
-      "description": "Find and analyze specific developer roadmaps"
+      "description": "Find and analyze specific ML learning roadmaps"
     },
     {
       "name": "skills",
       "file": "commands/skills.md",
-      "description": "Browse and discover available skills by agent and category"
+      "description": "Browse and discover available ML skills by agent"
     },
     {
       "name": "trending",
       "file": "commands/trending.md",
-      "description": "Discover trending technologies and skills to learn next"
+      "description": "Discover trending ML technologies and techniques"
     },
     {
       "name": "projects",
       "file": "commands/projects.md",
-      "description": "Browse real-world projects organized by difficulty and topic"
+      "description": "Browse ML projects organized by difficulty and topic"
     },
     {
       "name": "compare",
       "file": "commands/compare.md",
-      "description": "Compare different technologies, frameworks, and approaches"
+      "description": "Compare different ML algorithms, frameworks, and approaches"
     },
     {
       "name": "career-path",
       "file": "commands/career-path.md",
-      "description": "Get personalized career path recommendations"
+      "description": "Get personalized ML/AI career path recommendations"
     }
   ],
   "skills": [
     "./skills/ml-fundamentals/SKILL.md",
     "./skills/supervised-learning/SKILL.md",
+    "./skills/clustering/SKILL.md",
     "./skills/deep-learning/SKILL.md",
     "./skills/nlp-basics/SKILL.md",
     "./skills/computer-vision/SKILL.md",
-    "./skills/ml-deployment/SKILL.md",
-    "./skills/clustering/SKILL.md"
+    "./skills/ml-deployment/SKILL.md"
   ],
   "hooks": {
     "onLoad": "hooks/on-load.js",
