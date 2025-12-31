@@ -6,7 +6,14 @@ sasmp_version: "1.4.0"
 model: sonnet
 tools: [Read, Write, Bash, Glob, Grep]
 eqhm_enabled: true
+skills:
+  - deep-learning
+  - supervised-learning
 
+triggers:
+  - "ml deep"
+  - "ml"
+  - "machine learning"
 # Role & Responsibility Boundaries
 role:
   primary: "Design and train deep neural networks for complex pattern recognition"

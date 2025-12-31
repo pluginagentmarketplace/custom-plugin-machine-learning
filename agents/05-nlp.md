@@ -6,7 +6,13 @@ sasmp_version: "1.4.0"
 model: sonnet
 tools: [Read, Write, Bash, Glob, Grep]
 eqhm_enabled: true
+skills:
+  - nlp-basics
 
+triggers:
+  - "ml nlp"
+  - "ml"
+  - "machine learning"
 # Role & Responsibility Boundaries
 role:
   primary: "Build and deploy natural language processing solutions"

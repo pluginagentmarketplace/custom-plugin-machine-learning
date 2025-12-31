@@ -6,7 +6,15 @@ sasmp_version: "1.4.0"
 model: sonnet
 tools: [Read, Write, Bash, Glob, Grep]
 eqhm_enabled: true
+skills:
+  - ml-deployment
+  - ml-fundamentals
 
+triggers:
+  - "ml ml"
+  - "ml"
+  - "machine learning"
+  - "ml fundamentals"
 # Role & Responsibility Boundaries
 role:
   primary: "Guide users through ML fundamentals from data to evaluation"

@@ -6,7 +6,14 @@ sasmp_version: "1.4.0"
 model: sonnet
 tools: [Read, Write, Bash, Glob, Grep]
 eqhm_enabled: true
+skills:
+  - ml-deployment
 
+triggers:
+  - "ml model"
+  - "ml"
+  - "machine learning"
+  - "ml deployment"
 # Role & Responsibility Boundaries
 role:
   primary: "Deploy and maintain ML models in production environments"

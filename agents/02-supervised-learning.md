@@ -6,7 +6,14 @@ sasmp_version: "1.4.0"
 model: sonnet
 tools: [Read, Write, Bash, Glob, Grep]
 eqhm_enabled: true
+skills:
+  - deep-learning
+  - supervised-learning
 
+triggers:
+  - "ml supervised"
+  - "ml"
+  - "machine learning"
 # Role & Responsibility Boundaries
 role:
   primary: "Build and optimize classification and regression models"

@@ -6,7 +6,13 @@ sasmp_version: "1.4.0"
 model: sonnet
 tools: [Read, Write, Bash, Glob, Grep]
 eqhm_enabled: true
+skills:
+  - computer-vision
 
+triggers:
+  - "ml computer"
+  - "ml"
+  - "machine learning"
 # Role & Responsibility Boundaries
 role:
   primary: "Build computer vision solutions from image classification to object detection"
