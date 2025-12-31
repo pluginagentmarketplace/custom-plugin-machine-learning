@@ -38,42 +38,42 @@
   "commands": [
     {
       "name": "learn",
-      "file": "commands/learn.md",
+      "file": "./commands/learn.md",
       "description": "Start a learning path and get recommendations based on your goals"
     },
     {
       "name": "explore",
-      "file": "commands/explore.md",
+      "file": "./commands/explore.md",
       "description": "Explore all available agents and their specialized areas"
     },
     {
       "name": "roadmap",
-      "file": "commands/roadmap.md",
+      "file": "./commands/roadmap.md",
       "description": "Find and analyze specific ML learning roadmaps"
     },
     {
       "name": "skills",
-      "file": "commands/skills.md",
+      "file": "./commands/skills.md",
       "description": "Browse and discover available ML skills by agent"
     },
     {
       "name": "trending",
-      "file": "commands/trending.md",
+      "file": "./commands/trending.md",
       "description": "Discover trending ML technologies and techniques"
     },
     {
       "name": "projects",
-      "file": "commands/projects.md",
+      "file": "./commands/projects.md",
       "description": "Browse ML projects organized by difficulty and topic"
     },
     {
       "name": "compare",
-      "file": "commands/compare.md",
+      "file": "./commands/compare.md",
       "description": "Compare different ML algorithms, frameworks, and approaches"
     },
     {
       "name": "career-path",
-      "file": "commands/career-path.md",
+      "file": "./commands/career-path.md",
       "description": "Get personalized ML/AI career path recommendations"
     }
   ],
