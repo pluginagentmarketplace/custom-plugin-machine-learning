@@ -54,7 +54,7 @@
 
 ```bash
 # From Marketplace
-/plugin add marketplace pluginagentmarketplace/custom-plugin-machine-learning
+/plugin marketplace add pluginagentmarketplace/custom-plugin-machine-learning
 /plugin install machine-learning-assistant@pluginagentmarketplace-machine-learning
 
 # Or Local Installation
